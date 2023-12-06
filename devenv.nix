@@ -9,6 +9,8 @@
     pkgs.go
     pkgs.nodejs_20
     pkgs.yarn
+    pkgs.wget
+    pkgs.rnix-lsp
   ];
 
   enterShell = ''
