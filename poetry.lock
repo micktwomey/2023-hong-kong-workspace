@@ -310,6 +310,17 @@ files = [
 ]
 
 [[package]]
+name = "parsy"
+version = "2.1"
+description = "Easy-to-use parser combinators, for parsing in pure Python"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "parsy-2.1-py3-none-any.whl", hash = "sha256:8f18e7b11985e7802e7e3ecbd8291c6ca243d29820b1186e4c84605db4efffa0"},
+    {file = "parsy-2.1.tar.gz", hash = "sha256:fd5dd18d7b0b61f8275ee88665f430a20c02cf5a82d88557f35330530186d7ac"},
+]
+
+[[package]]
 name = "pluggy"
 version = "1.3.0"
 description = "plugin and hook calling mechanisms for python"
@@ -796,4 +807,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<4.0"
-content-hash = "e8da0e64d6d00df22b9a97a49af28b57af0e3a99d25db75639dcc44dc2e7f745"
+content-hash = "8347bfbb86f8dff17db9ca42d278b776995a8e7d29e571bde7fd891886da53e5"
