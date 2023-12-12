@@ -26,6 +26,7 @@ pytest = "^7.4.3"
 py-spy = "^0.3.14"
 pyinstrument = "^4.6.1"
 textual-dev = "^1.2.1"
+ipython = "^8.18.1"
 
 [build-system]
 requires = ["poetry-core"]
