@@ -1,7 +1,7 @@
 import functools
 from pathlib import Path
 
-from numba import jit
+# from numba import jit
 import almanacparser
 import structlog
 import tqdm
@@ -11,42 +11,32 @@ APP = typer.Typer()
 LOG = structlog.get_logger()
 
 
-@jit()
-def lookup_next(
-    mappings: dict[str, list[almanacparser.MappingTable]],
-    destination_name: str,
-    source_value: int,
-) -> int:
-    for mapping in mappings[destination_name]:
-        if (
-            source_value >= mapping["min_source"]
-            and source_value < mapping["max_source"]
-        ):
-            return mapping["destination"] + (source_value - mapping["source"])
-    return source_value
-
-
 class Almanac:
     def __init__(self, almanac: almanacparser.Almanac):
         self.almanac = almanac
-        self.mappings: dict[str, list[almanacparser.MappingTable]] = {}
+        self.mapping_tables: dict[str, list[almanacparser.MappingTable]] = {}
+        self.mappings: dict[str, almanacparser.Mapping] = {}
         # self.destination_lookup: dict[str, dict[int, int]] = {}
         for mapping in self.almanac["mappings"]:
-            mappings = mapping["mappings"]
-            self.mappings[mapping["destination"]] = mappings
+            mapping_tables = mapping["mappings"]
+            destination = mapping["destination"]
+            self.mapping_tables[destination] = mapping_tables
+            self.mappings[destination] = mapping
             # for m in mappings:
             #     m["min"] = min(mv["source"] for mv in m)
 
     # @functools.cache
-
     def lookup_next(self, destination_name: str, source_value: int) -> int:
-        return lookup_next(self.mappings, destination_name, source_value)
-        for mapping in self.mappings[destination_name]:
-            if (
-                source_value >= mapping["min_source"]
-                and source_value < mapping["max_source"]
-            ):
-                return mapping["destination"] + (source_value - mapping["source"])
+        if (
+            source_value >= self.mappings[destination_name]["min_source"]
+            and source_value < self.mappings[destination_name]["max_source"]
+        ):
+            for mapping in self.mapping_tables[destination_name]:
+                if (
+                    source_value >= mapping["min_source"]
+                    and source_value < mapping["max_source"]
+                ):
+                    return mapping["destination"] + (source_value - mapping["source"])
         return source_value
 
     @functools.cache
@@ -80,7 +70,9 @@ def main(
     for seed_range in tqdm.tqdm(almanac.almanac["seeds"], desc="Seed Ranges"):
         seeds = (seed_range["start"] + i for i in range(seed_range["end"]))
         total = seed_range["start"] + (seed_range["end"] - 1)
-        for seed in tqdm.tqdm(seeds, desc="Seeds", total=total):
+        for i, seed in enumerate(tqdm.tqdm(seeds, desc="Seeds", total=total)):
+            if i >= 1e6:
+                return
             # LOG.info("seed", seed=seed)
             current_result: int = seed
             # previous_mapping = "seed"

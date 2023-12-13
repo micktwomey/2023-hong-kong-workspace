@@ -1,0 +1,1210 @@
+{
+  "seeds": [
+    {
+      "start": 5844012,
+      "end": 110899473
+    },
+    {
+      "start": 1132285750,
+      "end": 58870036
+    },
+    {
+      "start": 986162929,
+      "end": 109080640
+    },
+    {
+      "start": 3089574276,
+      "end": 100113624
+    },
+    {
+      "start": 2693179996,
+      "end": 275745330
+    },
+    {
+      "start": 2090752257,
+      "end": 201704169
+    },
+    {
+      "start": 502075018,
+      "end": 396653347
+    },
+    {
+      "start": 1540050181,
+      "end": 277513792
+    },
+    {
+      "start": 1921754120,
+      "end": 26668991
+    },
+    {
+      "start": 3836386950,
+      "end": 66795009
+    }
+  ],
+  "mappings": [
+    {
+      "source": "seed",
+      "destination": "soil",
+      "mappings": [
+        {
+          "destination": 3547471595,
+          "source": 1239929038,
+          "count": 174680800,
+          "min_source": 1239929038,
+          "max_source": 1414609837
+        },
+        {
+          "destination": 3052451552,
+          "source": 758183681,
+          "count": 481745357,
+          "min_source": 758183681,
+          "max_source": 1239929037
+        },
+        {
+          "destination": 0,
+          "source": 1427884524,
+          "count": 1775655006,
+          "min_source": 1427884524,
+          "max_source": 3203539529
+        },
+        {
+          "destination": 2844087171,
+          "source": 549819300,
+          "count": 208364381,
+          "min_source": 549819300,
+          "max_source": 758183680
+        },
+        {
+          "destination": 3767989253,
+          "source": 4004864866,
+          "count": 5194940,
+          "min_source": 4004864866,
+          "max_source": 4010059805
+        },
+        {
+          "destination": 3534196909,
+          "source": 1414609838,
+          "count": 13274686,
+          "min_source": 1414609838,
+          "max_source": 1427884523
+        },
+        {
+          "destination": 1775655006,
+          "source": 114264781,
+          "count": 435554519,
+          "min_source": 114264781,
+          "max_source": 549819299
+        },
+        {
+          "destination": 4148908402,
+          "source": 4010059806,
+          "count": 146058894,
+          "min_source": 4010059806,
+          "max_source": 4156118699
+        },
+        {
+          "destination": 2729822390,
+          "source": 0,
+          "count": 114264781,
+          "min_source": 0,
+          "max_source": 114264780
+        },
+        {
+          "destination": 3773184193,
+          "source": 4156118700,
+          "count": 138848596,
+          "min_source": 4156118700,
+          "max_source": 4294967295
+        },
+        {
+          "destination": 2211209525,
+          "source": 3203539530,
+          "count": 518612865,
+          "min_source": 3203539530,
+          "max_source": 3722152394
+        },
+        {
+          "destination": 3912032789,
+          "source": 3767989253,
+          "count": 236875613,
+          "min_source": 3767989253,
+          "max_source": 4004864865
+        }
+      ],
+      "min_source": 0,
+      "max_source": 4294967295
+    },
+    {
+      "source": "soil",
+      "destination": "fertilizer",
+      "mappings": [
+        {
+          "destination": 912405184,
+          "source": 1056091028,
+          "count": 152837752,
+          "min_source": 1056091028,
+          "max_source": 1208928779
+        },
+        {
+          "destination": 194471272,
+          "source": 1208928780,
+          "count": 200072008,
+          "min_source": 1208928780,
+          "max_source": 1409000787
+        },
+        {
+          "destination": 136115250,
+          "source": 240819204,
+          "count": 58356022,
+          "min_source": 240819204,
+          "max_source": 299175225
+        },
+        {
+          "destination": 3502815281,
+          "source": 3536983174,
+          "count": 299994001,
+          "min_source": 3536983174,
+          "max_source": 3836977174
+        },
+        {
+          "destination": 2321814552,
+          "source": 2458149869,
+          "count": 18748048,
+          "min_source": 2458149869,
+          "max_source": 2476897916
+        },
+        {
+          "destination": 3173949445,
+          "source": 2623931701,
+          "count": 9591555,
+          "min_source": 2623931701,
+          "max_source": 2633523255
+        },
+        {
+          "destination": 394543280,
+          "source": 888648379,
+          "count": 167442649,
+          "min_source": 888648379,
+          "max_source": 1056091027
+        },
+        {
+          "destination": 1990258415,
+          "source": 3891640206,
+          "count": 212931291,
+          "min_source": 3891640206,
+          "max_source": 4104571496
+        },
+        {
+          "destination": 1068754270,
+          "source": 54862533,
+          "count": 153774684,
+          "min_source": 54862533,
+          "max_source": 208637216
+        },
+        {
+          "destination": 1222528954,
+          "source": 660792432,
+          "count": 186471834,
+          "min_source": 660792432,
+          "max_source": 847264265
+        },
+        {
+          "destination": 3340878967,
+          "source": 3405750148,
+          "count": 131233026,
+          "min_source": 3405750148,
+          "max_source": 3536983173
+        },
+        {
+          "destination": 3472111993,
+          "source": 3836977175,
+          "count": 30703288,
+          "min_source": 3836977175,
+          "max_source": 3867680462
+        },
+        {
+          "destination": 561985929,
+          "source": 299175226,
+          "count": 225501956,
+          "min_source": 299175226,
+          "max_source": 524677181
+        },
+        {
+          "destination": 2942828492,
+          "source": 4104571497,
+          "count": 88527954,
+          "min_source": 4104571497,
+          "max_source": 4193099450
+        },
+        {
+          "destination": 874532405,
+          "source": 850775600,
+          "count": 37872779,
+          "min_source": 850775600,
+          "max_source": 888648378
+        },
+        {
+          "destination": 3031356446,
+          "source": 3867680463,
+          "count": 23959743,
+          "min_source": 3867680463,
+          "max_source": 3891640205
+        },
+        {
+          "destination": 842350418,
+          "source": 208637217,
+          "count": 32181987,
+          "min_source": 208637217,
+          "max_source": 240819203
+        },
+        {
+          "destination": 0,
+          "source": 524677182,
+          "count": 136115250,
+          "min_source": 524677182,
+          "max_source": 660792431
+        },
+        {
+          "destination": 1065242936,
+          "source": 847264266,
+          "count": 3511334,
+          "min_source": 847264266,
+          "max_source": 850775599
+        },
+        {
+          "destination": 2203189706,
+          "source": 2339525023,
+          "count": 118624846,
+          "min_source": 2339525023,
+          "max_source": 2458149868
+        },
+        {
+          "destination": 1929736108,
+          "source": 2563409394,
+          "count": 60522307,
+          "min_source": 2563409394,
+          "max_source": 2623931700
+        },
+        {
+          "destination": 3802809282,
+          "source": 1847367009,
+          "count": 492158014,
+          "min_source": 1847367009,
+          "max_source": 2339525022
+        },
+        {
+          "destination": 1847367009,
+          "source": 2790861223,
+          "count": 82369099,
+          "min_source": 2790861223,
+          "max_source": 2873230321
+        },
+        {
+          "destination": 2442430445,
+          "source": 2873230322,
+          "count": 500398047,
+          "min_source": 2873230322,
+          "max_source": 3373628368
+        },
+        {
+          "destination": 3183541000,
+          "source": 2633523256,
+          "count": 157337967,
+          "min_source": 2633523256,
+          "max_source": 2790861222
+        },
+        {
+          "destination": 3141827666,
+          "source": 3373628369,
+          "count": 32121779,
+          "min_source": 3373628369,
+          "max_source": 3405750147
+        },
+        {
+          "destination": 787487885,
+          "source": 0,
+          "count": 54862533,
+          "min_source": 0,
+          "max_source": 54862532
+        },
+        {
+          "destination": 3055316189,
+          "source": 2476897917,
+          "count": 86511477,
+          "min_source": 2476897917,
+          "max_source": 2563409393
+        },
+        {
+          "destination": 2340562600,
+          "source": 4193099451,
+          "count": 101867845,
+          "min_source": 4193099451,
+          "max_source": 4294967295
+        }
+      ],
+      "min_source": 0,
+      "max_source": 4294967295
+    },
+    {
+      "source": "fertilizer",
+      "destination": "water",
+      "mappings": [
+        {
+          "destination": 798315344,
+          "source": 439687669,
+          "count": 1930292,
+          "min_source": 439687669,
+          "max_source": 441617960
+        },
+        {
+          "destination": 1174979421,
+          "source": 2966258900,
+          "count": 475289790,
+          "min_source": 2966258900,
+          "max_source": 3441548689
+        },
+        {
+          "destination": 439687669,
+          "source": 778614573,
+          "count": 55925503,
+          "min_source": 778614573,
+          "max_source": 834540075
+        },
+        {
+          "destination": 3743699694,
+          "source": 3453541232,
+          "count": 155280637,
+          "min_source": 3453541232,
+          "max_source": 3608821868
+        },
+        {
+          "destination": 2989334775,
+          "source": 1659556189,
+          "count": 96021468,
+          "min_source": 1659556189,
+          "max_source": 1755577656
+        },
+        {
+          "destination": 1650269211,
+          "source": 3441548690,
+          "count": 11992542,
+          "min_source": 3441548690,
+          "max_source": 3453541231
+        },
+        {
+          "destination": 3898980331,
+          "source": 3608821869,
+          "count": 395986965,
+          "min_source": 3608821869,
+          "max_source": 4004808833
+        },
+        {
+          "destination": 1705125292,
+          "source": 2123762646,
+          "count": 842496254,
+          "min_source": 2123762646,
+          "max_source": 2966258899
+        },
+        {
+          "destination": 3375514705,
+          "source": 1755577657,
+          "count": 368184989,
+          "min_source": 1755577657,
+          "max_source": 2123762645
+        },
+        {
+          "destination": 646363825,
+          "source": 441617961,
+          "count": 94777173,
+          "min_source": 441617961,
+          "max_source": 536395133
+        },
+        {
+          "destination": 1662261753,
+          "source": 1616692650,
+          "count": 42863539,
+          "min_source": 1616692650,
+          "max_source": 1659556188
+        },
+        {
+          "destination": 495613172,
+          "source": 627863920,
+          "count": 150750653,
+          "min_source": 627863920,
+          "max_source": 778614572
+        },
+        {
+          "destination": 2777061135,
+          "source": 1174979421,
+          "count": 212273640,
+          "min_source": 1174979421,
+          "max_source": 1387253060
+        },
+        {
+          "destination": 741140998,
+          "source": 834540076,
+          "count": 57174346,
+          "min_source": 834540076,
+          "max_source": 891714421
+        },
+        {
+          "destination": 800245636,
+          "source": 536395134,
+          "count": 91468786,
+          "min_source": 536395134,
+          "max_source": 627863919
+        },
+        {
+          "destination": 2547621546,
+          "source": 1387253061,
+          "count": 229439589,
+          "min_source": 1387253061,
+          "max_source": 1616692649
+        },
+        {
+          "destination": 3085356243,
+          "source": 4004808834,
+          "count": 290158462,
+          "min_source": 4004808834,
+          "max_source": 4294967295
+        }
+      ],
+      "min_source": 439687669,
+      "max_source": 4294967295
+    },
+    {
+      "source": "water",
+      "destination": "light",
+      "mappings": [
+        {
+          "destination": 541719462,
+          "source": 212840988,
+          "count": 165903288,
+          "min_source": 212840988,
+          "max_source": 378744275
+        },
+        {
+          "destination": 3437755571,
+          "source": 1615831015,
+          "count": 672632835,
+          "min_source": 1615831015,
+          "max_source": 2288463849
+        },
+        {
+          "destination": 1051033542,
+          "source": 2678450187,
+          "count": 510773217,
+          "min_source": 2678450187,
+          "max_source": 3189223403
+        },
+        {
+          "destination": 243353905,
+          "source": 378744276,
+          "count": 104057369,
+          "min_source": 378744276,
+          "max_source": 482801644
+        },
+        {
+          "destination": 1561806759,
+          "source": 3801474127,
+          "count": 134575711,
+          "min_source": 3801474127,
+          "max_source": 3936049837
+        },
+        {
+          "destination": 707622750,
+          "source": 677109833,
+          "count": 258560892,
+          "min_source": 677109833,
+          "max_source": 935670724
+        },
+        {
+          "destination": 2580483557,
+          "source": 1051033542,
+          "count": 195631857,
+          "min_source": 1051033542,
+          "max_source": 1246665398
+        },
+        {
+          "destination": 0,
+          "source": 935670725,
+          "count": 30512917,
+          "min_source": 935670725,
+          "max_source": 966183641
+        },
+        {
+          "destination": 347411274,
+          "source": 482801645,
+          "count": 194308188,
+          "min_source": 482801645,
+          "max_source": 677109832
+        },
+        {
+          "destination": 30512917,
+          "source": 0,
+          "count": 127836567,
+          "min_source": 0,
+          "max_source": 127836566
+        },
+        {
+          "destination": 2190497220,
+          "source": 2288463850,
+          "count": 389986337,
+          "min_source": 2288463850,
+          "max_source": 2678450186
+        },
+        {
+          "destination": 3068589955,
+          "source": 1246665399,
+          "count": 369165616,
+          "min_source": 1246665399,
+          "max_source": 1615831014
+        },
+        {
+          "destination": 1754579039,
+          "source": 3936049838,
+          "count": 66442917,
+          "min_source": 3936049838,
+          "max_source": 4002492754
+        },
+        {
+          "destination": 4110388406,
+          "source": 3616895237,
+          "count": 184578890,
+          "min_source": 3616895237,
+          "max_source": 3801474126
+        },
+        {
+          "destination": 158349484,
+          "source": 127836567,
+          "count": 85004421,
+          "min_source": 127836567,
+          "max_source": 212840987
+        },
+        {
+          "destination": 2776115414,
+          "source": 4002492755,
+          "count": 292474541,
+          "min_source": 4002492755,
+          "max_source": 4294967295
+        },
+        {
+          "destination": 1821021956,
+          "source": 3247419973,
+          "count": 369475264,
+          "min_source": 3247419973,
+          "max_source": 3616895236
+        },
+        {
+          "destination": 1696382470,
+          "source": 3189223404,
+          "count": 58196569,
+          "min_source": 3189223404,
+          "max_source": 3247419972
+        }
+      ],
+      "min_source": 0,
+      "max_source": 4294967295
+    },
+    {
+      "source": "light",
+      "destination": "temperature",
+      "mappings": [
+        {
+          "destination": 338228166,
+          "source": 2812162941,
+          "count": 77503977,
+          "min_source": 2812162941,
+          "max_source": 2889666917
+        },
+        {
+          "destination": 3123877206,
+          "source": 693964345,
+          "count": 40932068,
+          "min_source": 693964345,
+          "max_source": 734896412
+        },
+        {
+          "destination": 3939438903,
+          "source": 614787731,
+          "count": 633466,
+          "min_source": 614787731,
+          "max_source": 615421196
+        },
+        {
+          "destination": 3301169239,
+          "source": 2299402886,
+          "count": 215156012,
+          "min_source": 2299402886,
+          "max_source": 2514558897
+        },
+        {
+          "destination": 3516325251,
+          "source": 499164007,
+          "count": 115623724,
+          "min_source": 499164007,
+          "max_source": 614787730
+        },
+        {
+          "destination": 3852145506,
+          "source": 3365439095,
+          "count": 87293397,
+          "min_source": 3365439095,
+          "max_source": 3452732491
+        },
+        {
+          "destination": 875755064,
+          "source": 3565078024,
+          "count": 729889272,
+          "min_source": 3565078024,
+          "max_source": 4294967295
+        },
+        {
+          "destination": 2849390436,
+          "source": 734896413,
+          "count": 11914872,
+          "min_source": 734896413,
+          "max_source": 746811284
+        },
+        {
+          "destination": 2861305308,
+          "source": 215265512,
+          "count": 77518872,
+          "min_source": 215265512,
+          "max_source": 292784383
+        },
+        {
+          "destination": 4220385528,
+          "source": 2056242491,
+          "count": 68417151,
+          "min_source": 2056242491,
+          "max_source": 2124659641
+        },
+        {
+          "destination": 2221674563,
+          "source": 3167682469,
+          "count": 34693717,
+          "min_source": 3167682469,
+          "max_source": 3202376185
+        },
+        {
+          "destination": 2765973467,
+          "source": 292784384,
+          "count": 83416969,
+          "min_source": 292784384,
+          "max_source": 376201352
+        },
+        {
+          "destination": 3198884011,
+          "source": 1699097031,
+          "count": 22283517,
+          "min_source": 1699097031,
+          "max_source": 1721380547
+        },
+        {
+          "destination": 3164809274,
+          "source": 2889666918,
+          "count": 34074737,
+          "min_source": 2889666918,
+          "max_source": 2923741654
+        },
+        {
+          "destination": 809366712,
+          "source": 746811285,
+          "count": 52314986,
+          "min_source": 746811285,
+          "max_source": 799126270
+        },
+        {
+          "destination": 4096970661,
+          "source": 1633036395,
+          "count": 58945085,
+          "min_source": 1633036395,
+          "max_source": 1691981479
+        },
+        {
+          "destination": 3221167528,
+          "source": 2699611924,
+          "count": 80001711,
+          "min_source": 2699611924,
+          "max_source": 2779613634
+        },
+        {
+          "destination": 697021180,
+          "source": 3452732492,
+          "count": 112345532,
+          "min_source": 3452732492,
+          "max_source": 3565078023
+        },
+        {
+          "destination": 2059345064,
+          "source": 799126271,
+          "count": 162329499,
+          "min_source": 799126271,
+          "max_source": 961455769
+        },
+        {
+          "destination": 4155915746,
+          "source": 629494563,
+          "count": 64469782,
+          "min_source": 629494563,
+          "max_source": 693964344
+        },
+        {
+          "destination": 2431111524,
+          "source": 1721380548,
+          "count": 334861943,
+          "min_source": 1721380548,
+          "max_source": 2056242490
+        },
+        {
+          "destination": 684283267,
+          "source": 2779613635,
+          "count": 12737913,
+          "min_source": 2779613635,
+          "max_source": 2792351547
+        },
+        {
+          "destination": 440342453,
+          "source": 2923741655,
+          "count": 243940814,
+          "min_source": 2923741655,
+          "max_source": 3167682468
+        },
+        {
+          "destination": 3634265609,
+          "source": 961455770,
+          "count": 217879897,
+          "min_source": 961455770,
+          "max_source": 1179335666
+        },
+        {
+          "destination": 4288802679,
+          "source": 3202376186,
+          "count": 6164617,
+          "min_source": 3202376186,
+          "max_source": 3208540802
+        },
+        {
+          "destination": 415732143,
+          "source": 1691981480,
+          "count": 4798917,
+          "min_source": 1691981480,
+          "max_source": 1696780396
+        },
+        {
+          "destination": 1605644336,
+          "source": 1179335667,
+          "count": 453700728,
+          "min_source": 1179335667,
+          "max_source": 1633036394
+        },
+        {
+          "destination": 420531060,
+          "source": 2792351548,
+          "count": 19811393,
+          "min_source": 2792351548,
+          "max_source": 2812162940
+        },
+        {
+          "destination": 3631948975,
+          "source": 1696780397,
+          "count": 2316634,
+          "min_source": 1696780397,
+          "max_source": 1699097030
+        },
+        {
+          "destination": 2938824180,
+          "source": 2514558898,
+          "count": 185053026,
+          "min_source": 2514558898,
+          "max_source": 2699611923
+        },
+        {
+          "destination": 215265512,
+          "source": 376201353,
+          "count": 122962654,
+          "min_source": 376201353,
+          "max_source": 499164006
+        },
+        {
+          "destination": 2256368280,
+          "source": 2124659642,
+          "count": 174743244,
+          "min_source": 2124659642,
+          "max_source": 2299402885
+        },
+        {
+          "destination": 3940072369,
+          "source": 3208540803,
+          "count": 156898292,
+          "min_source": 3208540803,
+          "max_source": 3365439094
+        },
+        {
+          "destination": 861681698,
+          "source": 615421197,
+          "count": 14073366,
+          "min_source": 615421197,
+          "max_source": 629494562
+        }
+      ],
+      "min_source": 215265512,
+      "max_source": 4294967295
+    },
+    {
+      "source": "temperature",
+      "destination": "humidity",
+      "mappings": [
+        {
+          "destination": 841576398,
+          "source": 2731200418,
+          "count": 60836938,
+          "min_source": 2731200418,
+          "max_source": 2792037355
+        },
+        {
+          "destination": 1860695540,
+          "source": 395011682,
+          "count": 292982985,
+          "min_source": 395011682,
+          "max_source": 687994666
+        },
+        {
+          "destination": 1518037021,
+          "source": 3432774193,
+          "count": 53954373,
+          "min_source": 3432774193,
+          "max_source": 3486728565
+        },
+        {
+          "destination": 1786573987,
+          "source": 2461900019,
+          "count": 55353430,
+          "min_source": 2461900019,
+          "max_source": 2517253448
+        },
+        {
+          "destination": 2940303448,
+          "source": 1995108352,
+          "count": 6974538,
+          "min_source": 1995108352,
+          "max_source": 2002082889
+        },
+        {
+          "destination": 3014069287,
+          "source": 1664464874,
+          "count": 53916789,
+          "min_source": 1664464874,
+          "max_source": 1718381662
+        },
+        {
+          "destination": 753139746,
+          "source": 2190061656,
+          "count": 88436652,
+          "min_source": 2190061656,
+          "max_source": 2278498307
+        },
+        {
+          "destination": 2351822957,
+          "source": 2925825589,
+          "count": 209990361,
+          "min_source": 2925825589,
+          "max_source": 3135815949
+        },
+        {
+          "destination": 3079884326,
+          "source": 3498626816,
+          "count": 37609115,
+          "min_source": 3498626816,
+          "max_source": 3536235930
+        },
+        {
+          "destination": 4067060121,
+          "source": 4186346579,
+          "count": 108620717,
+          "min_source": 4186346579,
+          "max_source": 4294967295
+        },
+        {
+          "destination": 4175680838,
+          "source": 4102322798,
+          "count": 3778367,
+          "min_source": 4102322798,
+          "max_source": 4106101164
+        },
+        {
+          "destination": 1571991394,
+          "source": 2415899186,
+          "count": 46000833,
+          "min_source": 2415899186,
+          "max_source": 2461900018
+        },
+        {
+          "destination": 2841627583,
+          "source": 1157034722,
+          "count": 22534242,
+          "min_source": 1157034722,
+          "max_source": 1179568963
+        },
+        {
+          "destination": 1841927417,
+          "source": 2517253449,
+          "count": 18768123,
+          "min_source": 2517253449,
+          "max_source": 2536021571
+        },
+        {
+          "destination": 2153678525,
+          "source": 47765849,
+          "count": 108568164,
+          "min_source": 47765849,
+          "max_source": 156334012
+        },
+        {
+          "destination": 3251281674,
+          "source": 1179568964,
+          "count": 226737882,
+          "min_source": 1179568964,
+          "max_source": 1406306845
+        },
+        {
+          "destination": 3067986076,
+          "source": 3486728566,
+          "count": 11898250,
+          "min_source": 3486728566,
+          "max_source": 3498626815
+        },
+        {
+          "destination": 1308101633,
+          "source": 1785172964,
+          "count": 209935388,
+          "min_source": 1785172964,
+          "max_source": 1995108351
+        },
+        {
+          "destination": 2262246689,
+          "source": 1406306846,
+          "count": 89576268,
+          "min_source": 1406306846,
+          "max_source": 1495883113
+        },
+        {
+          "destination": 902413336,
+          "source": 2278498308,
+          "count": 137400878,
+          "min_source": 2278498308,
+          "max_source": 2415899185
+        },
+        {
+          "destination": 1039814214,
+          "source": 3765380846,
+          "count": 268287419,
+          "min_source": 3765380846,
+          "max_source": 4033668264
+        },
+        {
+          "destination": 45422022,
+          "source": 156334013,
+          "count": 238677669,
+          "min_source": 156334013,
+          "max_source": 395011681
+        },
+        {
+          "destination": 3617672799,
+          "source": 2612163195,
+          "count": 119037223,
+          "min_source": 2612163195,
+          "max_source": 2731200417
+        },
+        {
+          "destination": 2947277986,
+          "source": 1718381663,
+          "count": 66791301,
+          "min_source": 1718381663,
+          "max_source": 1785172963
+        },
+        {
+          "destination": 1617992227,
+          "source": 1495883114,
+          "count": 168581760,
+          "min_source": 1495883114,
+          "max_source": 1664464873
+        },
+        {
+          "destination": 284099691,
+          "source": 687994667,
+          "count": 469040055,
+          "min_source": 687994667,
+          "max_source": 1157034721
+        },
+        {
+          "destination": 4214721882,
+          "source": 4106101165,
+          "count": 80245414,
+          "min_source": 4106101165,
+          "max_source": 4186346578
+        },
+        {
+          "destination": 2839283756,
+          "source": 45422022,
+          "count": 2343827,
+          "min_source": 45422022,
+          "max_source": 47765848
+        },
+        {
+          "destination": 3117493441,
+          "source": 2792037356,
+          "count": 133788233,
+          "min_source": 2792037356,
+          "max_source": 2925825588
+        },
+        {
+          "destination": 2864161825,
+          "source": 2536021572,
+          "count": 76141623,
+          "min_source": 2536021572,
+          "max_source": 2612163194
+        },
+        {
+          "destination": 4179459205,
+          "source": 4067060121,
+          "count": 35262677,
+          "min_source": 4067060121,
+          "max_source": 4102322797
+        },
+        {
+          "destination": 3736710022,
+          "source": 3135815950,
+          "count": 296958243,
+          "min_source": 3135815950,
+          "max_source": 3432774192
+        },
+        {
+          "destination": 3478019556,
+          "source": 2002082890,
+          "count": 139653243,
+          "min_source": 2002082890,
+          "max_source": 2141736132
+        },
+        {
+          "destination": 2610138841,
+          "source": 3536235931,
+          "count": 229144915,
+          "min_source": 3536235931,
+          "max_source": 3765380845
+        },
+        {
+          "destination": 2561813318,
+          "source": 2141736133,
+          "count": 48325523,
+          "min_source": 2141736133,
+          "max_source": 2190061655
+        }
+      ],
+      "min_source": 45422022,
+      "max_source": 4294967295
+    },
+    {
+      "source": "humidity",
+      "destination": "location",
+      "mappings": [
+        {
+          "destination": 608325534,
+          "source": 0,
+          "count": 231346900,
+          "min_source": 0,
+          "max_source": 231346899
+        },
+        {
+          "destination": 222429954,
+          "source": 453776854,
+          "count": 385895580,
+          "min_source": 453776854,
+          "max_source": 839672433
+        },
+        {
+          "destination": 3710263359,
+          "source": 3540956206,
+          "count": 563631409,
+          "min_source": 3540956206,
+          "max_source": 4104587614
+        },
+        {
+          "destination": 1193511298,
+          "source": 1116937854,
+          "count": 38719102,
+          "min_source": 1116937854,
+          "max_source": 1155656955
+        },
+        {
+          "destination": 1702450793,
+          "source": 1176729484,
+          "count": 153572024,
+          "min_source": 1176729484,
+          "max_source": 1330301507
+        },
+        {
+          "destination": 1694669826,
+          "source": 1109156887,
+          "count": 7780967,
+          "min_source": 1109156887,
+          "max_source": 1116937853
+        },
+        {
+          "destination": 0,
+          "source": 231346900,
+          "count": 222429954,
+          "min_source": 231346900,
+          "max_source": 453776853
+        },
+        {
+          "destination": 1856022817,
+          "source": 1686715664,
+          "count": 1854240542,
+          "min_source": 1686715664,
+          "max_source": 3540956205
+        },
+        {
+          "destination": 1588644556,
+          "source": 4104587615,
+          "count": 106025270,
+          "min_source": 4104587615,
+          "max_source": 4210612884
+        },
+        {
+          "destination": 1109156887,
+          "source": 4210612885,
+          "count": 84354411,
+          "min_source": 4210612885,
+          "max_source": 4294967295
+        },
+        {
+          "destination": 4273894768,
+          "source": 1155656956,
+          "count": 21072528,
+          "min_source": 1155656956,
+          "max_source": 1176729483
+        },
+        {
+          "destination": 1232230400,
+          "source": 1330301508,
+          "count": 356414156,
+          "min_source": 1330301508,
+          "max_source": 1686715663
+        }
+      ],
+      "min_source": 0,
+      "max_source": 4294967295
+    }
+  ],
+  "next_mapping": {
+    "seed": "soil",
+    "soil": "fertilizer",
+    "fertilizer": "water",
+    "water": "light",
+    "light": "temperature",
+    "temperature": "humidity",
+    "humidity": "location"
+  }
+}

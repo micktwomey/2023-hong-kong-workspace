@@ -11,3 +11,5 @@ devenv.local.nix
 
 __pycache__
 .vscode
+zig-cache
+zig-out
