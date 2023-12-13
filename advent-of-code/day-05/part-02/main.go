@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"slices"
 )
 
 type Mapping struct {
@@ -33,52 +34,60 @@ type Input struct {
 }
 
 func process_seed(seed int, input Input, next_mappings map[string]Mapping) int {
-	fmt.Printf("process_seed %v\n", seed)
+	// fmt.Printf("process_seed %v\n", seed)
 	var current_result = seed
 	for next_mapping := input.NextMapping["seed"]; next_mapping != ""; next_mapping = input.NextMapping[next_mapping] {
-		fmt.Printf("process_seed current_result %v next_mapping %s\n", current_result, next_mapping)
+		// fmt.Printf("process_seed current_result %v next_mapping %s\n", current_result, next_mapping)
 		current_mapping := next_mappings[next_mapping]
 		if (current_result < current_mapping.MinSource) || (current_result >= current_mapping.MaxSource) {
-			fmt.Printf("process_seed short circuit mapping %s\n", next_mapping)
+			// fmt.Printf("process_seed short circuit mapping %s\n", next_mapping)
 			continue
 		}
 		for _, mapping := range current_mapping.Mappings {
 			if (current_result >= mapping.MinSource) && (current_result < mapping.MaxSource) {
 				current_result = mapping.Destination + (current_result - mapping.Source)
-				fmt.Printf("process_seed mapping %s -> %d\n", next_mapping, current_result)
+				// fmt.Printf("process_seed mapping %s -> %d\n", next_mapping, current_result)
 				break
 			}
 		}
 	}
-	fmt.Printf("process_seed seed %v ->  %v\n", seed, current_result)
+	// fmt.Printf("process_seed seed %v -> result %v\n", seed, current_result)
 	return current_result
 }
 
-func process_seed_range(seed_range SeedRange, input Input, next_mappings map[string]Mapping) int {
+func process_seed_range(seed_range SeedRange, input Input, next_mappings map[string]Mapping) []int {
 	fmt.Printf("process_seed_range %+v\n", seed_range)
-	var location int = 0
+	var locations []int
 	for seed := seed_range.Start; seed < (seed_range.Start + seed_range.End); seed++ {
-		location = process_seed(seed, input, next_mappings)
-		if seed%1000 == 0 {
-			break
+		location := process_seed(seed, input, next_mappings)
+		locations = append(locations, location)
+		if seed%1000000 == 0 {
+			percent_complete := float32(seed-seed_range.Start) / float32(seed_range.End)
+			fmt.Printf("process_seed_range %+v completed %0.2f%%\n", seed_range, percent_complete)
 		}
 	}
-	return location
+	return locations
 }
 
-func solution(input Input) {
+func solution(input Input) int {
 	var next_mappings = map[string]Mapping{}
 	for _, mapping := range input.Mappings {
 		next_mappings[mapping.Destination] = mapping
 	}
+	var locations []int
+	fmt.Printf("Seeds: %d\n", len(input.Seeds))
 	for _, seed_range := range input.Seeds {
-		result := process_seed_range(seed_range, input, next_mappings)
-		fmt.Printf("process_seed_range result %+v\n", result)
+		results := process_seed_range(seed_range, input, next_mappings)
+		locations = append(locations, results...)
+		fmt.Printf("process_seed_range results %d\n", len(results))
 	}
+	fmt.Printf("solution locations %d\n", len(locations))
+	return slices.Min(locations)
 }
 
 func main() {
 	content, err := os.ReadFile("input.json")
+	// content, err := os.ReadFile("example.json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -89,5 +98,6 @@ func main() {
 	}
 	fmt.Printf("%+v\n", i)
 
-	solution(i)
+	location := solution(i)
+	fmt.Printf("location: %d\n", location)
 }
