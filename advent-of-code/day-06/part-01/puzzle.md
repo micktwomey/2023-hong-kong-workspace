@@ -12,6 +12,7 @@ For example:
 
 Time:      7  15   30
 Distance:  9  40  200
+
 This document describes three races:
 
 The first race lasts 7 milliseconds. The record distance in this race is 9 millimeters.
