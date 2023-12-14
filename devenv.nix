@@ -12,6 +12,7 @@
     pkgs.wget
     pkgs.rnix-lsp
     pkgs.zls
+    pkgs.time
   ];
 
   enterShell = ''

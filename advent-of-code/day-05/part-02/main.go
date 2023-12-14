@@ -10,18 +10,20 @@ import (
 	"slices"
 )
 
+type MappingDetail struct {
+	Destination int `json:"destination"`
+	Source      int `json:"source"`
+	Count       int `json:"count"`
+	MinSource   int `json:"min_source"`
+	MaxSource   int `json:"max_source"`
+}
+
 type Mapping struct {
-	Source      string `json:"source"`
-	Destination string `json:"destination"`
-	MinSource   int    `json:"min_source"`
-	MaxSource   int    `json:"max_source"`
-	Mappings    []struct {
-		Destination int `json:"destination"`
-		Source      int `json:"source"`
-		Count       int `json:"count"`
-		MinSource   int `json:"min_source"`
-		MaxSource   int `json:"max_source"`
-	}
+	Source      string          `json:"source"`
+	Destination string          `json:"destination"`
+	MinSource   int             `json:"min_source"`
+	MaxSource   int             `json:"max_source"`
+	Mappings    []MappingDetail `json:"mappings"`
 }
 
 type SeedRange struct {
@@ -35,20 +37,29 @@ type Input struct {
 	NextMapping map[string]string `json:"next_mapping"`
 }
 
-func process_seed(seed int, input *Input, next_mappings map[string]Mapping) int {
-	// fmt.Printf("process_seed %v\n", seed)
+func process_seed(seed int, input *Input, next_mappings []*Mapping) int {
+	// fmt.Printf("process_seed %v mappings:%v\n", seed, next_mappings)
 	var current_result = seed
-	for next_mapping := input.NextMapping["seed"]; next_mapping != ""; next_mapping = input.NextMapping[next_mapping] {
-		// fmt.Printf("process_seed current_result %v next_mapping %s\n", current_result, next_mapping)
-		current_mapping := next_mappings[next_mapping]
+	// for next_mapping := input.NextMapping["seed"]; next_mapping != ""; next_mapping = input.NextMapping[next_mapping] {
+	// for _, next_mapping := range next_mappings {
+	var current_mapping *Mapping
+	var next_mapping *Mapping
+	var mapping MappingDetail
+	for i := 0; i < len(next_mappings); i++ {
+		next_mapping = next_mappings[i]
+
+		// fmt.Printf("process_seed current_result %v next_mapping %+v\n", current_result, next_mapping)
+		current_mapping = next_mapping
 		if (current_result < current_mapping.MinSource) || (current_result >= current_mapping.MaxSource) {
-			// fmt.Printf("process_seed short circuit mapping %s\n", next_mapping)
+			// fmt.Printf("process_seed short circuit mapping %+v\n", next_mapping)
 			continue
 		}
-		for _, mapping := range current_mapping.Mappings {
+		// for _, mapping := range current_mapping.Mappings {
+		for j := 0; i < len(current_mapping.Mappings); i++ {
+			mapping = current_mapping.Mappings[j]
 			if (current_result >= mapping.MinSource) && (current_result < mapping.MaxSource) {
 				current_result = mapping.Destination + (current_result - mapping.Source)
-				// fmt.Printf("process_seed mapping %s -> %d\n", next_mapping, current_result)
+				// fmt.Printf("process_seed mapping %+v -> %d\n", next_mapping, current_result)
 				break
 			}
 		}
@@ -57,7 +68,7 @@ func process_seed(seed int, input *Input, next_mappings map[string]Mapping) int 
 	return current_result
 }
 
-func process_seed_range(seed_range *SeedRange, input *Input, next_mappings map[string]Mapping) []int {
+func process_seed_range(seed_range *SeedRange, input *Input, next_mappings []*Mapping) []int {
 	fmt.Printf("process_seed_range %+v\n", seed_range)
 	var locations []int
 	for seed := seed_range.Start; seed < (seed_range.Start + seed_range.End); seed++ {
@@ -65,24 +76,39 @@ func process_seed_range(seed_range *SeedRange, input *Input, next_mappings map[s
 		locations = append(locations, location)
 		if seed%10000000 == 0 {
 			percent_complete := float32(seed-seed_range.Start) / float32(seed_range.End)
-			fmt.Printf("process_seed_range %+v completed %0.2f%%\n", seed_range, percent_complete)
-			break
+			fmt.Printf("process_seed_range %+v completed %0.2f%%\n", seed_range, percent_complete*100.0)
+			// break
 		}
 	}
 	return locations
 }
 
-func solution(input *Input) int {
-	var next_mappings = map[string]Mapping{}
+// Convert the name -> next -> lookup to a flat list of mappings to iterate through
+func flatten_next_mappings(input *Input) []*Mapping {
+	next_mappings := make(map[string]Mapping)
 	for _, mapping := range input.Mappings {
+		fmt.Printf("Mapping: destination=%s mapping=%+v mapping=%v\n", mapping.Destination, mapping, &mapping)
 		next_mappings[mapping.Destination] = mapping
+		fmt.Printf("next_mappings[%s] = %v", mapping.Destination, mapping)
 	}
+	fmt.Printf("Next mappings: %+v\n", next_mappings)
+	var mappings []*Mapping
+	for next_mapping := input.NextMapping["seed"]; next_mapping != ""; next_mapping = input.NextMapping[next_mapping] {
+		mapping := next_mappings[next_mapping]
+		mappings = append(mappings, &mapping)
+	}
+	fmt.Printf("Flatter mappings: %+v %+v %+v\n", mappings, mappings[0], mappings[1])
+	return mappings
+}
+
+func solution(input *Input) int {
+	var next_mappings = flatten_next_mappings(input)
 	var locations []int
 	fmt.Printf("Seeds: %d\n", len(input.Seeds))
 	for _, seed_range := range input.Seeds {
 		results := process_seed_range(&seed_range, input, next_mappings)
 		locations = append(locations, results...)
-		fmt.Printf("process_seed_range results %d\n", len(results))
+		fmt.Printf("process_seed_range results %v\n", results)
 	}
 	fmt.Printf("solution locations %d\n", len(locations))
 	return slices.Min(locations)
