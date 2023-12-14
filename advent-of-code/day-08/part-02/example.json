@@ -1,0 +1,64 @@
+{
+  "steps": [
+    "L",
+    "R"
+  ],
+  "nodes": {
+    "11A": {
+      "name": "11A",
+      "L": "11B",
+      "R": "XXX",
+      "A": true,
+      "Z": false
+    },
+    "11B": {
+      "name": "11B",
+      "L": "XXX",
+      "R": "11Z",
+      "A": false,
+      "Z": false
+    },
+    "11Z": {
+      "name": "11Z",
+      "L": "11B",
+      "R": "XXX",
+      "A": false,
+      "Z": true
+    },
+    "22A": {
+      "name": "22A",
+      "L": "22B",
+      "R": "XXX",
+      "A": true,
+      "Z": false
+    },
+    "22B": {
+      "name": "22B",
+      "L": "22C",
+      "R": "22C",
+      "A": false,
+      "Z": false
+    },
+    "22C": {
+      "name": "22C",
+      "L": "22Z",
+      "R": "22Z",
+      "A": false,
+      "Z": false
+    },
+    "22Z": {
+      "name": "22Z",
+      "L": "22B",
+      "R": "22B",
+      "A": false,
+      "Z": true
+    },
+    "XXX": {
+      "name": "XXX",
+      "L": "XXX",
+      "R": "XXX",
+      "A": false,
+      "Z": false
+    }
+  }
+}

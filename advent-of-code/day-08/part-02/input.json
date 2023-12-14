@@ -1,0 +1,5857 @@
+{
+  "steps": [
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "L",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "L",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "L",
+    "L",
+    "L",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "L",
+    "L",
+    "L",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "L",
+    "L",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "L",
+    "R",
+    "L",
+    "L",
+    "L",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "R",
+    "R",
+    "R",
+    "L",
+    "L",
+    "R",
+    "R",
+    "R",
+    "R"
+  ],
+  "nodes": {
+    "RBX": {
+      "name": "RBX",
+      "L": "TMF",
+      "R": "KTP",
+      "A": false,
+      "Z": false
+    },
+    "RBP": {
+      "name": "RBP",
+      "L": "MKS",
+      "R": "MKS",
+      "A": false,
+      "Z": false
+    },
+    "CGR": {
+      "name": "CGR",
+      "L": "XDR",
+      "R": "VDX",
+      "A": false,
+      "Z": false
+    },
+    "KBX": {
+      "name": "KBX",
+      "L": "DGP",
+      "R": "JKM",
+      "A": false,
+      "Z": false
+    },
+    "BNJ": {
+      "name": "BNJ",
+      "L": "NJC",
+      "R": "QRL",
+      "A": false,
+      "Z": false
+    },
+    "BXQ": {
+      "name": "BXQ",
+      "L": "DKX",
+      "R": "CJQ",
+      "A": false,
+      "Z": false
+    },
+    "NDX": {
+      "name": "NDX",
+      "L": "PHJ",
+      "R": "TRQ",
+      "A": false,
+      "Z": false
+    },
+    "KFQ": {
+      "name": "KFQ",
+      "L": "KXN",
+      "R": "GBQ",
+      "A": false,
+      "Z": false
+    },
+    "LRF": {
+      "name": "LRF",
+      "L": "CTS",
+      "R": "MTT",
+      "A": false,
+      "Z": false
+    },
+    "RTN": {
+      "name": "RTN",
+      "L": "VMK",
+      "R": "JTK",
+      "A": false,
+      "Z": false
+    },
+    "QKP": {
+      "name": "QKP",
+      "L": "FDS",
+      "R": "SFG",
+      "A": false,
+      "Z": false
+    },
+    "BVB": {
+      "name": "BVB",
+      "L": "BHS",
+      "R": "VRQ",
+      "A": false,
+      "Z": false
+    },
+    "NBT": {
+      "name": "NBT",
+      "L": "BPJ",
+      "R": "DFF",
+      "A": false,
+      "Z": false
+    },
+    "HQM": {
+      "name": "HQM",
+      "L": "QMV",
+      "R": "XVG",
+      "A": false,
+      "Z": false
+    },
+    "XMR": {
+      "name": "XMR",
+      "L": "RKH",
+      "R": "NJQ",
+      "A": false,
+      "Z": false
+    },
+    "PHC": {
+      "name": "PHC",
+      "L": "XHP",
+      "R": "DKM",
+      "A": false,
+      "Z": false
+    },
+    "HTX": {
+      "name": "HTX",
+      "L": "BXK",
+      "R": "BQP",
+      "A": false,
+      "Z": false
+    },
+    "TPJ": {
+      "name": "TPJ",
+      "L": "TNQ",
+      "R": "QDX",
+      "A": false,
+      "Z": false
+    },
+    "RDJ": {
+      "name": "RDJ",
+      "L": "KHB",
+      "R": "MFG",
+      "A": false,
+      "Z": false
+    },
+    "XTF": {
+      "name": "XTF",
+      "L": "PPR",
+      "R": "FHG",
+      "A": false,
+      "Z": false
+    },
+    "DVA": {
+      "name": "DVA",
+      "L": "DBM",
+      "R": "MVD",
+      "A": true,
+      "Z": false
+    },
+    "HFP": {
+      "name": "HFP",
+      "L": "CXV",
+      "R": "VCD",
+      "A": false,
+      "Z": false
+    },
+    "HPS": {
+      "name": "HPS",
+      "L": "GTD",
+      "R": "NBL",
+      "A": false,
+      "Z": false
+    },
+    "LBK": {
+      "name": "LBK",
+      "L": "FVN",
+      "R": "LHX",
+      "A": false,
+      "Z": false
+    },
+    "KKS": {
+      "name": "KKS",
+      "L": "FKM",
+      "R": "LHN",
+      "A": false,
+      "Z": false
+    },
+    "FJV": {
+      "name": "FJV",
+      "L": "LVN",
+      "R": "PLP",
+      "A": false,
+      "Z": false
+    },
+    "MLH": {
+      "name": "MLH",
+      "L": "SFR",
+      "R": "RJK",
+      "A": false,
+      "Z": false
+    },
+    "SVQ": {
+      "name": "SVQ",
+      "L": "RCS",
+      "R": "FFD",
+      "A": false,
+      "Z": false
+    },
+    "PTB": {
+      "name": "PTB",
+      "L": "TMC",
+      "R": "QCR",
+      "A": false,
+      "Z": false
+    },
+    "RFL": {
+      "name": "RFL",
+      "L": "RXP",
+      "R": "VRL",
+      "A": false,
+      "Z": false
+    },
+    "PTH": {
+      "name": "PTH",
+      "L": "XTS",
+      "R": "GFG",
+      "A": false,
+      "Z": false
+    },
+    "QNM": {
+      "name": "QNM",
+      "L": "TJR",
+      "R": "MHX",
+      "A": false,
+      "Z": false
+    },
+    "BJT": {
+      "name": "BJT",
+      "L": "PJG",
+      "R": "SHG",
+      "A": false,
+      "Z": false
+    },
+    "JJD": {
+      "name": "JJD",
+      "L": "FMJ",
+      "R": "QVV",
+      "A": false,
+      "Z": false
+    },
+    "GMX": {
+      "name": "GMX",
+      "L": "CLD",
+      "R": "QRM",
+      "A": false,
+      "Z": false
+    },
+    "DGZ": {
+      "name": "DGZ",
+      "L": "BSL",
+      "R": "BRS",
+      "A": false,
+      "Z": true
+    },
+    "BVM": {
+      "name": "BVM",
+      "L": "SFC",
+      "R": "JGD",
+      "A": false,
+      "Z": false
+    },
+    "GNQ": {
+      "name": "GNQ",
+      "L": "PLP",
+      "R": "LVN",
+      "A": false,
+      "Z": false
+    },
+    "XPG": {
+      "name": "XPG",
+      "L": "VLH",
+      "R": "BCM",
+      "A": false,
+      "Z": false
+    },
+    "PND": {
+      "name": "PND",
+      "L": "RXV",
+      "R": "VGM",
+      "A": false,
+      "Z": false
+    },
+    "RNV": {
+      "name": "RNV",
+      "L": "GVL",
+      "R": "MTB",
+      "A": false,
+      "Z": false
+    },
+    "JSG": {
+      "name": "JSG",
+      "L": "QVP",
+      "R": "XCX",
+      "A": false,
+      "Z": false
+    },
+    "QHP": {
+      "name": "QHP",
+      "L": "KQG",
+      "R": "BML",
+      "A": false,
+      "Z": false
+    },
+    "XBK": {
+      "name": "XBK",
+      "L": "NPP",
+      "R": "CRN",
+      "A": false,
+      "Z": false
+    },
+    "QRL": {
+      "name": "QRL",
+      "L": "RQH",
+      "R": "BGH",
+      "A": false,
+      "Z": false
+    },
+    "HDJ": {
+      "name": "HDJ",
+      "L": "VRQ",
+      "R": "BHS",
+      "A": false,
+      "Z": false
+    },
+    "XPD": {
+      "name": "XPD",
+      "L": "HSB",
+      "R": "LRC",
+      "A": false,
+      "Z": false
+    },
+    "KJK": {
+      "name": "KJK",
+      "L": "XCV",
+      "R": "MDG",
+      "A": false,
+      "Z": false
+    },
+    "NJB": {
+      "name": "NJB",
+      "L": "RKL",
+      "R": "SHQ",
+      "A": false,
+      "Z": false
+    },
+    "MCQ": {
+      "name": "MCQ",
+      "L": "XFT",
+      "R": "MRQ",
+      "A": false,
+      "Z": false
+    },
+    "QRC": {
+      "name": "QRC",
+      "L": "XVS",
+      "R": "CSN",
+      "A": false,
+      "Z": false
+    },
+    "FCT": {
+      "name": "FCT",
+      "L": "DFF",
+      "R": "BPJ",
+      "A": false,
+      "Z": false
+    },
+    "MTF": {
+      "name": "MTF",
+      "L": "PQT",
+      "R": "CNQ",
+      "A": false,
+      "Z": false
+    },
+    "RXG": {
+      "name": "RXG",
+      "L": "QVP",
+      "R": "XCX",
+      "A": false,
+      "Z": false
+    },
+    "MVZ": {
+      "name": "MVZ",
+      "L": "QRC",
+      "R": "GHJ",
+      "A": false,
+      "Z": true
+    },
+    "RKL": {
+      "name": "RKL",
+      "L": "QQM",
+      "R": "BFT",
+      "A": false,
+      "Z": false
+    },
+    "VRT": {
+      "name": "VRT",
+      "L": "GMJ",
+      "R": "BDK",
+      "A": false,
+      "Z": false
+    },
+    "BNS": {
+      "name": "BNS",
+      "L": "HQV",
+      "R": "HPS",
+      "A": false,
+      "Z": false
+    },
+    "JSQ": {
+      "name": "JSQ",
+      "L": "HTC",
+      "R": "PGD",
+      "A": false,
+      "Z": false
+    },
+    "BHB": {
+      "name": "BHB",
+      "L": "VGQ",
+      "R": "BTM",
+      "A": false,
+      "Z": false
+    },
+    "NLP": {
+      "name": "NLP",
+      "L": "RKB",
+      "R": "XQB",
+      "A": false,
+      "Z": false
+    },
+    "FGF": {
+      "name": "FGF",
+      "L": "CVK",
+      "R": "VRT",
+      "A": false,
+      "Z": false
+    },
+    "FPM": {
+      "name": "FPM",
+      "L": "GDS",
+      "R": "LTG",
+      "A": false,
+      "Z": false
+    },
+    "BCX": {
+      "name": "BCX",
+      "L": "NDX",
+      "R": "GSL",
+      "A": false,
+      "Z": false
+    },
+    "GVL": {
+      "name": "GVL",
+      "L": "VCX",
+      "R": "PSP",
+      "A": false,
+      "Z": false
+    },
+    "KRM": {
+      "name": "KRM",
+      "L": "MHK",
+      "R": "JCX",
+      "A": false,
+      "Z": false
+    },
+    "GLJ": {
+      "name": "GLJ",
+      "L": "XNX",
+      "R": "RKP",
+      "A": false,
+      "Z": false
+    },
+    "LBV": {
+      "name": "LBV",
+      "L": "FDC",
+      "R": "TPJ",
+      "A": false,
+      "Z": false
+    },
+    "GSP": {
+      "name": "GSP",
+      "L": "KMC",
+      "R": "LQR",
+      "A": false,
+      "Z": false
+    },
+    "TFR": {
+      "name": "TFR",
+      "L": "HXJ",
+      "R": "MFJ",
+      "A": false,
+      "Z": false
+    },
+    "DLX": {
+      "name": "DLX",
+      "L": "FNK",
+      "R": "GLJ",
+      "A": false,
+      "Z": false
+    },
+    "DKX": {
+      "name": "DKX",
+      "L": "XSR",
+      "R": "LHP",
+      "A": false,
+      "Z": false
+    },
+    "SVR": {
+      "name": "SVR",
+      "L": "KPX",
+      "R": "QTM",
+      "A": false,
+      "Z": false
+    },
+    "JMT": {
+      "name": "JMT",
+      "L": "GXV",
+      "R": "RTX",
+      "A": false,
+      "Z": false
+    },
+    "XSX": {
+      "name": "XSX",
+      "L": "HHD",
+      "R": "HHD",
+      "A": false,
+      "Z": false
+    },
+    "RJF": {
+      "name": "RJF",
+      "L": "BRH",
+      "R": "HGP",
+      "A": false,
+      "Z": false
+    },
+    "BDK": {
+      "name": "BDK",
+      "L": "TGX",
+      "R": "HKP",
+      "A": false,
+      "Z": false
+    },
+    "TFF": {
+      "name": "TFF",
+      "L": "DSX",
+      "R": "DSX",
+      "A": false,
+      "Z": false
+    },
+    "TJR": {
+      "name": "TJR",
+      "L": "BKB",
+      "R": "LCB",
+      "A": false,
+      "Z": false
+    },
+    "BDQ": {
+      "name": "BDQ",
+      "L": "CLD",
+      "R": "QRM",
+      "A": false,
+      "Z": false
+    },
+    "NTC": {
+      "name": "NTC",
+      "L": "BQL",
+      "R": "BQL",
+      "A": false,
+      "Z": false
+    },
+    "CVS": {
+      "name": "CVS",
+      "L": "RQC",
+      "R": "FFV",
+      "A": false,
+      "Z": false
+    },
+    "BML": {
+      "name": "BML",
+      "L": "VNT",
+      "R": "JRH",
+      "A": false,
+      "Z": false
+    },
+    "CBK": {
+      "name": "CBK",
+      "L": "TGB",
+      "R": "RTN",
+      "A": false,
+      "Z": false
+    },
+    "HQV": {
+      "name": "HQV",
+      "L": "GTD",
+      "R": "NBL",
+      "A": false,
+      "Z": false
+    },
+    "PDT": {
+      "name": "PDT",
+      "L": "SRQ",
+      "R": "MLD",
+      "A": false,
+      "Z": false
+    },
+    "RXV": {
+      "name": "RXV",
+      "L": "KJK",
+      "R": "FCD",
+      "A": false,
+      "Z": false
+    },
+    "XTS": {
+      "name": "XTS",
+      "L": "SCG",
+      "R": "KQJ",
+      "A": false,
+      "Z": false
+    },
+    "PXG": {
+      "name": "PXG",
+      "L": "LKG",
+      "R": "MTQ",
+      "A": false,
+      "Z": false
+    },
+    "PCX": {
+      "name": "PCX",
+      "L": "FKJ",
+      "R": "FCV",
+      "A": false,
+      "Z": false
+    },
+    "HKR": {
+      "name": "HKR",
+      "L": "LMK",
+      "R": "BJR",
+      "A": false,
+      "Z": false
+    },
+    "CKK": {
+      "name": "CKK",
+      "L": "XSX",
+      "R": "XSX",
+      "A": false,
+      "Z": false
+    },
+    "TNP": {
+      "name": "TNP",
+      "L": "TDH",
+      "R": "JPR",
+      "A": false,
+      "Z": false
+    },
+    "PCH": {
+      "name": "PCH",
+      "L": "RBP",
+      "R": "PQH",
+      "A": false,
+      "Z": false
+    },
+    "KHB": {
+      "name": "KHB",
+      "L": "RQR",
+      "R": "BXQ",
+      "A": false,
+      "Z": false
+    },
+    "CJZ": {
+      "name": "CJZ",
+      "L": "CNC",
+      "R": "HJX",
+      "A": false,
+      "Z": true
+    },
+    "JPN": {
+      "name": "JPN",
+      "L": "FRP",
+      "R": "QTB",
+      "A": false,
+      "Z": false
+    },
+    "RKP": {
+      "name": "RKP",
+      "L": "NKH",
+      "R": "FQC",
+      "A": false,
+      "Z": false
+    },
+    "BDP": {
+      "name": "BDP",
+      "L": "GCM",
+      "R": "VKT",
+      "A": false,
+      "Z": false
+    },
+    "HQX": {
+      "name": "HQX",
+      "L": "TQF",
+      "R": "NJB",
+      "A": false,
+      "Z": false
+    },
+    "PFV": {
+      "name": "PFV",
+      "L": "FPM",
+      "R": "VNP",
+      "A": false,
+      "Z": false
+    },
+    "NFQ": {
+      "name": "NFQ",
+      "L": "GFX",
+      "R": "GXH",
+      "A": false,
+      "Z": false
+    },
+    "STX": {
+      "name": "STX",
+      "L": "MCQ",
+      "R": "DNS",
+      "A": false,
+      "Z": false
+    },
+    "CKX": {
+      "name": "CKX",
+      "L": "CFS",
+      "R": "BNS",
+      "A": false,
+      "Z": false
+    },
+    "NRJ": {
+      "name": "NRJ",
+      "L": "SBG",
+      "R": "TLK",
+      "A": false,
+      "Z": false
+    },
+    "DHS": {
+      "name": "DHS",
+      "L": "VBH",
+      "R": "VMT",
+      "A": false,
+      "Z": false
+    },
+    "TVL": {
+      "name": "TVL",
+      "L": "BPQ",
+      "R": "NBM",
+      "A": false,
+      "Z": false
+    },
+    "QTF": {
+      "name": "QTF",
+      "L": "MPS",
+      "R": "RJB",
+      "A": false,
+      "Z": false
+    },
+    "FHV": {
+      "name": "FHV",
+      "L": "LMK",
+      "R": "BJR",
+      "A": false,
+      "Z": false
+    },
+    "JCV": {
+      "name": "JCV",
+      "L": "JSQ",
+      "R": "STQ",
+      "A": false,
+      "Z": false
+    },
+    "RGX": {
+      "name": "RGX",
+      "L": "GVL",
+      "R": "MTB",
+      "A": false,
+      "Z": false
+    },
+    "CTS": {
+      "name": "CTS",
+      "L": "PCB",
+      "R": "GJV",
+      "A": false,
+      "Z": false
+    },
+    "RCS": {
+      "name": "RCS",
+      "L": "TNT",
+      "R": "XTF",
+      "A": false,
+      "Z": false
+    },
+    "PCS": {
+      "name": "PCS",
+      "L": "NJH",
+      "R": "RLX",
+      "A": false,
+      "Z": false
+    },
+    "KNG": {
+      "name": "KNG",
+      "L": "CHP",
+      "R": "FNN",
+      "A": false,
+      "Z": false
+    },
+    "FJL": {
+      "name": "FJL",
+      "L": "KKH",
+      "R": "QGQ",
+      "A": false,
+      "Z": false
+    },
+    "CPK": {
+      "name": "CPK",
+      "L": "KTX",
+      "R": "CGR",
+      "A": false,
+      "Z": false
+    },
+    "BLF": {
+      "name": "BLF",
+      "L": "PCQ",
+      "R": "TKN",
+      "A": false,
+      "Z": false
+    },
+    "FCR": {
+      "name": "FCR",
+      "L": "STF",
+      "R": "SVQ",
+      "A": false,
+      "Z": false
+    },
+    "BSL": {
+      "name": "BSL",
+      "L": "GFJ",
+      "R": "CDL",
+      "A": false,
+      "Z": false
+    },
+    "FKS": {
+      "name": "FKS",
+      "L": "GRG",
+      "R": "JSB",
+      "A": false,
+      "Z": false
+    },
+    "FCM": {
+      "name": "FCM",
+      "L": "LFX",
+      "R": "RJF",
+      "A": false,
+      "Z": false
+    },
+    "XLK": {
+      "name": "XLK",
+      "L": "CDP",
+      "R": "CBD",
+      "A": false,
+      "Z": false
+    },
+    "KNB": {
+      "name": "KNB",
+      "L": "VGQ",
+      "R": "BTM",
+      "A": false,
+      "Z": false
+    },
+    "KGC": {
+      "name": "KGC",
+      "L": "TJR",
+      "R": "MHX",
+      "A": false,
+      "Z": false
+    },
+    "JHM": {
+      "name": "JHM",
+      "L": "JSP",
+      "R": "XDN",
+      "A": false,
+      "Z": false
+    },
+    "HFN": {
+      "name": "HFN",
+      "L": "STF",
+      "R": "SVQ",
+      "A": false,
+      "Z": false
+    },
+    "GCM": {
+      "name": "GCM",
+      "L": "CKX",
+      "R": "KPS",
+      "A": false,
+      "Z": false
+    },
+    "CGV": {
+      "name": "CGV",
+      "L": "MHK",
+      "R": "JCX",
+      "A": false,
+      "Z": false
+    },
+    "TQP": {
+      "name": "TQP",
+      "L": "JRM",
+      "R": "XSB",
+      "A": false,
+      "Z": false
+    },
+    "GSM": {
+      "name": "GSM",
+      "L": "FJV",
+      "R": "GNQ",
+      "A": false,
+      "Z": false
+    },
+    "KBL": {
+      "name": "KBL",
+      "L": "DLX",
+      "R": "BGD",
+      "A": false,
+      "Z": false
+    },
+    "CBC": {
+      "name": "CBC",
+      "L": "MQK",
+      "R": "RRF",
+      "A": false,
+      "Z": false
+    },
+    "NJM": {
+      "name": "NJM",
+      "L": "KLQ",
+      "R": "BVL",
+      "A": false,
+      "Z": false
+    },
+    "THG": {
+      "name": "THG",
+      "L": "CPG",
+      "R": "PND",
+      "A": false,
+      "Z": false
+    },
+    "DXP": {
+      "name": "DXP",
+      "L": "HDJ",
+      "R": "BVB",
+      "A": false,
+      "Z": false
+    },
+    "DTT": {
+      "name": "DTT",
+      "L": "XDN",
+      "R": "JSP",
+      "A": false,
+      "Z": false
+    },
+    "PLP": {
+      "name": "PLP",
+      "L": "BKF",
+      "R": "FGP",
+      "A": false,
+      "Z": false
+    },
+    "MSZ": {
+      "name": "MSZ",
+      "L": "MVD",
+      "R": "DBM",
+      "A": false,
+      "Z": true
+    },
+    "BQC": {
+      "name": "BQC",
+      "L": "NPL",
+      "R": "VXF",
+      "A": false,
+      "Z": false
+    },
+    "CGB": {
+      "name": "CGB",
+      "L": "LRM",
+      "R": "MTH",
+      "A": false,
+      "Z": false
+    },
+    "RLX": {
+      "name": "RLX",
+      "L": "DBT",
+      "R": "RJN",
+      "A": false,
+      "Z": false
+    },
+    "RXP": {
+      "name": "RXP",
+      "L": "HFP",
+      "R": "JNS",
+      "A": false,
+      "Z": false
+    },
+    "TTH": {
+      "name": "TTH",
+      "L": "QNF",
+      "R": "KNG",
+      "A": false,
+      "Z": false
+    },
+    "LHS": {
+      "name": "LHS",
+      "L": "QFR",
+      "R": "GTN",
+      "A": false,
+      "Z": false
+    },
+    "NBL": {
+      "name": "NBL",
+      "L": "THT",
+      "R": "VTQ",
+      "A": false,
+      "Z": false
+    },
+    "DRS": {
+      "name": "DRS",
+      "L": "PJH",
+      "R": "STX",
+      "A": false,
+      "Z": false
+    },
+    "PSP": {
+      "name": "PSP",
+      "L": "CPK",
+      "R": "QKF",
+      "A": false,
+      "Z": false
+    },
+    "PPR": {
+      "name": "PPR",
+      "L": "LQK",
+      "R": "VSN",
+      "A": false,
+      "Z": false
+    },
+    "QHT": {
+      "name": "QHT",
+      "L": "RLG",
+      "R": "TDG",
+      "A": false,
+      "Z": false
+    },
+    "FVM": {
+      "name": "FVM",
+      "L": "MLR",
+      "R": "HXF",
+      "A": false,
+      "Z": false
+    },
+    "DHB": {
+      "name": "DHB",
+      "L": "CQC",
+      "R": "BKK",
+      "A": false,
+      "Z": false
+    },
+    "MVP": {
+      "name": "MVP",
+      "L": "GHJ",
+      "R": "QRC",
+      "A": false,
+      "Z": false
+    },
+    "TDG": {
+      "name": "TDG",
+      "L": "RVX",
+      "R": "CDB",
+      "A": false,
+      "Z": false
+    },
+    "LKN": {
+      "name": "LKN",
+      "L": "HXF",
+      "R": "MLR",
+      "A": false,
+      "Z": false
+    },
+    "CNR": {
+      "name": "CNR",
+      "L": "KCV",
+      "R": "CDR",
+      "A": false,
+      "Z": false
+    },
+    "SMC": {
+      "name": "SMC",
+      "L": "BBR",
+      "R": "BMS",
+      "A": false,
+      "Z": false
+    },
+    "QDP": {
+      "name": "QDP",
+      "L": "LXV",
+      "R": "VPS",
+      "A": false,
+      "Z": false
+    },
+    "LLD": {
+      "name": "LLD",
+      "L": "CGC",
+      "R": "NGQ",
+      "A": false,
+      "Z": false
+    },
+    "KXN": {
+      "name": "KXN",
+      "L": "PRR",
+      "R": "PSR",
+      "A": false,
+      "Z": false
+    },
+    "LRC": {
+      "name": "LRC",
+      "L": "SHB",
+      "R": "PBK",
+      "A": false,
+      "Z": false
+    },
+    "SQD": {
+      "name": "SQD",
+      "L": "LBV",
+      "R": "CRP",
+      "A": false,
+      "Z": false
+    },
+    "QTB": {
+      "name": "QTB",
+      "L": "KNS",
+      "R": "JTS",
+      "A": false,
+      "Z": false
+    },
+    "MTT": {
+      "name": "MTT",
+      "L": "GJV",
+      "R": "PCB",
+      "A": false,
+      "Z": false
+    },
+    "GMV": {
+      "name": "GMV",
+      "L": "JNH",
+      "R": "MJF",
+      "A": false,
+      "Z": false
+    },
+    "DTG": {
+      "name": "DTG",
+      "L": "SQD",
+      "R": "KVV",
+      "A": false,
+      "Z": false
+    },
+    "RTV": {
+      "name": "RTV",
+      "L": "DSB",
+      "R": "SJB",
+      "A": false,
+      "Z": false
+    },
+    "CDL": {
+      "name": "CDL",
+      "L": "FTQ",
+      "R": "CPN",
+      "A": false,
+      "Z": false
+    },
+    "JHR": {
+      "name": "JHR",
+      "L": "JRM",
+      "R": "XSB",
+      "A": false,
+      "Z": false
+    },
+    "BFP": {
+      "name": "BFP",
+      "L": "PFG",
+      "R": "MTD",
+      "A": false,
+      "Z": false
+    },
+    "DTB": {
+      "name": "DTB",
+      "L": "NDX",
+      "R": "GSL",
+      "A": false,
+      "Z": false
+    },
+    "SQM": {
+      "name": "SQM",
+      "L": "CXL",
+      "R": "NBD",
+      "A": false,
+      "Z": false
+    },
+    "NBP": {
+      "name": "NBP",
+      "L": "KBN",
+      "R": "LQH",
+      "A": false,
+      "Z": false
+    },
+    "BTC": {
+      "name": "BTC",
+      "L": "LJT",
+      "R": "TCV",
+      "A": false,
+      "Z": false
+    },
+    "PQT": {
+      "name": "PQT",
+      "L": "PXG",
+      "R": "BSF",
+      "A": false,
+      "Z": false
+    },
+    "QDH": {
+      "name": "QDH",
+      "L": "FPM",
+      "R": "VNP",
+      "A": false,
+      "Z": false
+    },
+    "VPT": {
+      "name": "VPT",
+      "L": "PRT",
+      "R": "VHJ",
+      "A": false,
+      "Z": false
+    },
+    "VKC": {
+      "name": "VKC",
+      "L": "GXK",
+      "R": "QSB",
+      "A": false,
+      "Z": false
+    },
+    "NXB": {
+      "name": "NXB",
+      "L": "QKP",
+      "R": "TGK",
+      "A": false,
+      "Z": false
+    },
+    "FDF": {
+      "name": "FDF",
+      "L": "VRT",
+      "R": "CVK",
+      "A": false,
+      "Z": false
+    },
+    "NTG": {
+      "name": "NTG",
+      "L": "FRV",
+      "R": "BQR",
+      "A": false,
+      "Z": false
+    },
+    "RKB": {
+      "name": "RKB",
+      "L": "PHC",
+      "R": "JSD",
+      "A": false,
+      "Z": false
+    },
+    "MHV": {
+      "name": "MHV",
+      "L": "XXL",
+      "R": "THG",
+      "A": false,
+      "Z": false
+    },
+    "PHV": {
+      "name": "PHV",
+      "L": "SNM",
+      "R": "TFR",
+      "A": false,
+      "Z": false
+    },
+    "XRK": {
+      "name": "XRK",
+      "L": "JNN",
+      "R": "LKR",
+      "A": false,
+      "Z": false
+    },
+    "XVS": {
+      "name": "XVS",
+      "L": "CBK",
+      "R": "NNM",
+      "A": false,
+      "Z": false
+    },
+    "GDQ": {
+      "name": "GDQ",
+      "L": "BDQ",
+      "R": "GMX",
+      "A": false,
+      "Z": false
+    },
+    "TKR": {
+      "name": "TKR",
+      "L": "CKJ",
+      "R": "LVQ",
+      "A": false,
+      "Z": false
+    },
+    "XCX": {
+      "name": "XCX",
+      "L": "LSP",
+      "R": "FNB",
+      "A": false,
+      "Z": false
+    },
+    "JCX": {
+      "name": "JCX",
+      "L": "FGF",
+      "R": "FDF",
+      "A": false,
+      "Z": false
+    },
+    "MFJ": {
+      "name": "MFJ",
+      "L": "DBB",
+      "R": "HBH",
+      "A": false,
+      "Z": false
+    },
+    "BQP": {
+      "name": "BQP",
+      "L": "HRT",
+      "R": "DQD",
+      "A": false,
+      "Z": false
+    },
+    "VNC": {
+      "name": "VNC",
+      "L": "BDQ",
+      "R": "GMX",
+      "A": false,
+      "Z": false
+    },
+    "SSC": {
+      "name": "SSC",
+      "L": "LQH",
+      "R": "KBN",
+      "A": false,
+      "Z": false
+    },
+    "TJD": {
+      "name": "TJD",
+      "L": "QFV",
+      "R": "KRS",
+      "A": false,
+      "Z": false
+    },
+    "NKL": {
+      "name": "NKL",
+      "L": "CKK",
+      "R": "DDC",
+      "A": false,
+      "Z": false
+    },
+    "NTM": {
+      "name": "NTM",
+      "L": "QHG",
+      "R": "MCC",
+      "A": false,
+      "Z": false
+    },
+    "JBQ": {
+      "name": "JBQ",
+      "L": "HXV",
+      "R": "JPN",
+      "A": false,
+      "Z": false
+    },
+    "DGP": {
+      "name": "DGP",
+      "L": "FVM",
+      "R": "LKN",
+      "A": false,
+      "Z": false
+    },
+    "SJB": {
+      "name": "SJB",
+      "L": "LRQ",
+      "R": "DMG",
+      "A": false,
+      "Z": false
+    },
+    "LJT": {
+      "name": "LJT",
+      "L": "MMT",
+      "R": "MDL",
+      "A": false,
+      "Z": false
+    },
+    "RFC": {
+      "name": "RFC",
+      "L": "MVM",
+      "R": "JXP",
+      "A": false,
+      "Z": false
+    },
+    "FFV": {
+      "name": "FFV",
+      "L": "TPG",
+      "R": "QMD",
+      "A": false,
+      "Z": false
+    },
+    "PJH": {
+      "name": "PJH",
+      "L": "DNS",
+      "R": "MCQ",
+      "A": false,
+      "Z": false
+    },
+    "VCD": {
+      "name": "VCD",
+      "L": "FHV",
+      "R": "HKR",
+      "A": false,
+      "Z": false
+    },
+    "MPS": {
+      "name": "MPS",
+      "L": "DHH",
+      "R": "LPT",
+      "A": false,
+      "Z": false
+    },
+    "VHJ": {
+      "name": "VHJ",
+      "L": "RGX",
+      "R": "RNV",
+      "A": false,
+      "Z": false
+    },
+    "FLT": {
+      "name": "FLT",
+      "L": "FRF",
+      "R": "NHG",
+      "A": false,
+      "Z": false
+    },
+    "DSF": {
+      "name": "DSF",
+      "L": "SDV",
+      "R": "VKC",
+      "A": false,
+      "Z": false
+    },
+    "HJQ": {
+      "name": "HJQ",
+      "L": "CDR",
+      "R": "KCV",
+      "A": false,
+      "Z": false
+    },
+    "BQR": {
+      "name": "BQR",
+      "L": "PDX",
+      "R": "PMX",
+      "A": false,
+      "Z": false
+    },
+    "CRJ": {
+      "name": "CRJ",
+      "L": "BPN",
+      "R": "KKS",
+      "A": false,
+      "Z": false
+    },
+    "MQN": {
+      "name": "MQN",
+      "L": "PNN",
+      "R": "DHB",
+      "A": false,
+      "Z": false
+    },
+    "KCC": {
+      "name": "KCC",
+      "L": "KMC",
+      "R": "LQR",
+      "A": false,
+      "Z": false
+    },
+    "BTH": {
+      "name": "BTH",
+      "L": "VLH",
+      "R": "BCM",
+      "A": false,
+      "Z": false
+    },
+    "KNS": {
+      "name": "KNS",
+      "L": "GGM",
+      "R": "SJS",
+      "A": false,
+      "Z": false
+    },
+    "SCG": {
+      "name": "SCG",
+      "L": "MBF",
+      "R": "RDR",
+      "A": false,
+      "Z": false
+    },
+    "VDQ": {
+      "name": "VDQ",
+      "L": "JNN",
+      "R": "LKR",
+      "A": false,
+      "Z": false
+    },
+    "XFT": {
+      "name": "XFT",
+      "L": "VPT",
+      "R": "FLH",
+      "A": false,
+      "Z": false
+    },
+    "RDR": {
+      "name": "RDR",
+      "L": "GTF",
+      "R": "GJR",
+      "A": false,
+      "Z": false
+    },
+    "CXS": {
+      "name": "CXS",
+      "L": "RRF",
+      "R": "MQK",
+      "A": false,
+      "Z": false
+    },
+    "XDN": {
+      "name": "XDN",
+      "L": "SSF",
+      "R": "VGC",
+      "A": false,
+      "Z": false
+    },
+    "JPR": {
+      "name": "JPR",
+      "L": "VGX",
+      "R": "TCF",
+      "A": false,
+      "Z": false
+    },
+    "BTF": {
+      "name": "BTF",
+      "L": "LKM",
+      "R": "GBG",
+      "A": false,
+      "Z": false
+    },
+    "GCJ": {
+      "name": "GCJ",
+      "L": "VPS",
+      "R": "LXV",
+      "A": false,
+      "Z": false
+    },
+    "FGJ": {
+      "name": "FGJ",
+      "L": "XVG",
+      "R": "QMV",
+      "A": false,
+      "Z": false
+    },
+    "MBF": {
+      "name": "MBF",
+      "L": "GJR",
+      "R": "GTF",
+      "A": false,
+      "Z": false
+    },
+    "TPG": {
+      "name": "TPG",
+      "L": "TND",
+      "R": "QSF",
+      "A": false,
+      "Z": false
+    },
+    "BNR": {
+      "name": "BNR",
+      "L": "BHG",
+      "R": "SMC",
+      "A": false,
+      "Z": false
+    },
+    "GJV": {
+      "name": "GJV",
+      "L": "FLB",
+      "R": "PCX",
+      "A": false,
+      "Z": false
+    },
+    "LQF": {
+      "name": "LQF",
+      "L": "BJT",
+      "R": "KTN",
+      "A": false,
+      "Z": false
+    },
+    "VSB": {
+      "name": "VSB",
+      "L": "JVB",
+      "R": "FVK",
+      "A": false,
+      "Z": false
+    },
+    "NHB": {
+      "name": "NHB",
+      "L": "HQX",
+      "R": "LLQ",
+      "A": false,
+      "Z": false
+    },
+    "CKC": {
+      "name": "CKC",
+      "L": "PJD",
+      "R": "TRS",
+      "A": false,
+      "Z": false
+    },
+    "JVB": {
+      "name": "JVB",
+      "L": "QQV",
+      "R": "NRS",
+      "A": false,
+      "Z": false
+    },
+    "BKK": {
+      "name": "BKK",
+      "L": "LSR",
+      "R": "LJN",
+      "A": false,
+      "Z": false
+    },
+    "SBV": {
+      "name": "SBV",
+      "L": "GTN",
+      "R": "QFR",
+      "A": false,
+      "Z": false
+    },
+    "JMK": {
+      "name": "JMK",
+      "L": "MFG",
+      "R": "KHB",
+      "A": false,
+      "Z": false
+    },
+    "LPX": {
+      "name": "LPX",
+      "L": "NBP",
+      "R": "SSC",
+      "A": false,
+      "Z": false
+    },
+    "KLJ": {
+      "name": "KLJ",
+      "L": "CDX",
+      "R": "VTL",
+      "A": false,
+      "Z": false
+    },
+    "KQJ": {
+      "name": "KQJ",
+      "L": "RDR",
+      "R": "MBF",
+      "A": false,
+      "Z": false
+    },
+    "VMK": {
+      "name": "VMK",
+      "L": "JXJ",
+      "R": "BMT",
+      "A": false,
+      "Z": false
+    },
+    "TRS": {
+      "name": "TRS",
+      "L": "LQM",
+      "R": "JJD",
+      "A": false,
+      "Z": false
+    },
+    "KCM": {
+      "name": "KCM",
+      "L": "XBD",
+      "R": "XMH",
+      "A": false,
+      "Z": false
+    },
+    "JCT": {
+      "name": "JCT",
+      "L": "NFQ",
+      "R": "NDJ",
+      "A": false,
+      "Z": false
+    },
+    "FGM": {
+      "name": "FGM",
+      "L": "HMK",
+      "R": "PGQ",
+      "A": false,
+      "Z": false
+    },
+    "QKK": {
+      "name": "QKK",
+      "L": "RLS",
+      "R": "LPX",
+      "A": false,
+      "Z": false
+    },
+    "QJD": {
+      "name": "QJD",
+      "L": "PDT",
+      "R": "RPQ",
+      "A": false,
+      "Z": false
+    },
+    "LHP": {
+      "name": "LHP",
+      "L": "PLN",
+      "R": "MQN",
+      "A": false,
+      "Z": false
+    },
+    "NPL": {
+      "name": "NPL",
+      "L": "TFF",
+      "R": "TFF",
+      "A": false,
+      "Z": false
+    },
+    "XHP": {
+      "name": "XHP",
+      "L": "PJQ",
+      "R": "KBL",
+      "A": false,
+      "Z": false
+    },
+    "HMK": {
+      "name": "HMK",
+      "L": "JNV",
+      "R": "XPS",
+      "A": false,
+      "Z": false
+    },
+    "KMC": {
+      "name": "KMC",
+      "L": "VCG",
+      "R": "NTG",
+      "A": false,
+      "Z": false
+    },
+    "QDX": {
+      "name": "QDX",
+      "L": "TMM",
+      "R": "HHM",
+      "A": false,
+      "Z": false
+    },
+    "VNP": {
+      "name": "VNP",
+      "L": "LTG",
+      "R": "GDS",
+      "A": false,
+      "Z": false
+    },
+    "PDR": {
+      "name": "PDR",
+      "L": "CDX",
+      "R": "VTL",
+      "A": false,
+      "Z": false
+    },
+    "HVK": {
+      "name": "HVK",
+      "L": "BQC",
+      "R": "SCN",
+      "A": false,
+      "Z": false
+    },
+    "QMV": {
+      "name": "QMV",
+      "L": "BNJ",
+      "R": "CRL",
+      "A": false,
+      "Z": false
+    },
+    "DDR": {
+      "name": "DDR",
+      "L": "KRS",
+      "R": "QFV",
+      "A": false,
+      "Z": false
+    },
+    "RDG": {
+      "name": "RDG",
+      "L": "QHP",
+      "R": "QXN",
+      "A": false,
+      "Z": false
+    },
+    "CRL": {
+      "name": "CRL",
+      "L": "NJC",
+      "R": "QRL",
+      "A": false,
+      "Z": false
+    },
+    "SHB": {
+      "name": "SHB",
+      "L": "SQX",
+      "R": "JVV",
+      "A": false,
+      "Z": false
+    },
+    "TSP": {
+      "name": "TSP",
+      "L": "BPX",
+      "R": "FVC",
+      "A": false,
+      "Z": false
+    },
+    "RRF": {
+      "name": "RRF",
+      "L": "KJB",
+      "R": "PTB",
+      "A": false,
+      "Z": false
+    },
+    "CSG": {
+      "name": "CSG",
+      "L": "FRX",
+      "R": "RTP",
+      "A": false,
+      "Z": false
+    },
+    "RPQ": {
+      "name": "RPQ",
+      "L": "SRQ",
+      "R": "MLD",
+      "A": false,
+      "Z": false
+    },
+    "VXS": {
+      "name": "VXS",
+      "L": "MTN",
+      "R": "DJQ",
+      "A": false,
+      "Z": false
+    },
+    "PJK": {
+      "name": "PJK",
+      "L": "NGD",
+      "R": "NTM",
+      "A": false,
+      "Z": false
+    },
+    "QHG": {
+      "name": "QHG",
+      "L": "NXT",
+      "R": "DHS",
+      "A": false,
+      "Z": false
+    },
+    "LSP": {
+      "name": "LSP",
+      "L": "MTR",
+      "R": "GGH",
+      "A": false,
+      "Z": false
+    },
+    "SHN": {
+      "name": "SHN",
+      "L": "JJS",
+      "R": "RVC",
+      "A": false,
+      "Z": false
+    },
+    "TNQ": {
+      "name": "TNQ",
+      "L": "TMM",
+      "R": "HHM",
+      "A": false,
+      "Z": false
+    },
+    "NPK": {
+      "name": "NPK",
+      "L": "GCM",
+      "R": "VKT",
+      "A": false,
+      "Z": false
+    },
+    "MJF": {
+      "name": "MJF",
+      "L": "NBT",
+      "R": "FCT",
+      "A": false,
+      "Z": false
+    },
+    "JNN": {
+      "name": "JNN",
+      "L": "PTH",
+      "R": "HFK",
+      "A": false,
+      "Z": false
+    },
+    "NRS": {
+      "name": "NRS",
+      "L": "CLT",
+      "R": "HGV",
+      "A": false,
+      "Z": false
+    },
+    "HSX": {
+      "name": "HSX",
+      "L": "BPX",
+      "R": "FVC",
+      "A": false,
+      "Z": false
+    },
+    "MVM": {
+      "name": "MVM",
+      "L": "DSF",
+      "R": "NQS",
+      "A": false,
+      "Z": false
+    },
+    "PBK": {
+      "name": "PBK",
+      "L": "SQX",
+      "R": "JVV",
+      "A": false,
+      "Z": false
+    },
+    "HHD": {
+      "name": "HHD",
+      "L": "DBM",
+      "R": "MVD",
+      "A": false,
+      "Z": false
+    },
+    "MTD": {
+      "name": "MTD",
+      "L": "DVB",
+      "R": "BTX",
+      "A": false,
+      "Z": false
+    },
+    "PXP": {
+      "name": "PXP",
+      "L": "NPP",
+      "R": "CRN",
+      "A": false,
+      "Z": false
+    },
+    "TMF": {
+      "name": "TMF",
+      "L": "LPF",
+      "R": "QPD",
+      "A": false,
+      "Z": false
+    },
+    "BRT": {
+      "name": "BRT",
+      "L": "FJV",
+      "R": "GNQ",
+      "A": false,
+      "Z": false
+    },
+    "MFQ": {
+      "name": "MFQ",
+      "L": "BHG",
+      "R": "SMC",
+      "A": false,
+      "Z": false
+    },
+    "DJQ": {
+      "name": "DJQ",
+      "L": "MVP",
+      "R": "MVZ",
+      "A": false,
+      "Z": false
+    },
+    "LKR": {
+      "name": "LKR",
+      "L": "PTH",
+      "R": "HFK",
+      "A": false,
+      "Z": false
+    },
+    "STQ": {
+      "name": "STQ",
+      "L": "HTC",
+      "R": "PGD",
+      "A": false,
+      "Z": false
+    },
+    "DXF": {
+      "name": "DXF",
+      "L": "JBX",
+      "R": "TRT",
+      "A": false,
+      "Z": false
+    },
+    "RJN": {
+      "name": "RJN",
+      "L": "PDR",
+      "R": "KLJ",
+      "A": false,
+      "Z": false
+    },
+    "CGC": {
+      "name": "CGC",
+      "L": "KKL",
+      "R": "RJV",
+      "A": false,
+      "Z": false
+    },
+    "SRG": {
+      "name": "SRG",
+      "L": "QKK",
+      "R": "LND",
+      "A": false,
+      "Z": false
+    },
+    "MCC": {
+      "name": "MCC",
+      "L": "DHS",
+      "R": "NXT",
+      "A": false,
+      "Z": false
+    },
+    "JMG": {
+      "name": "JMG",
+      "L": "RLX",
+      "R": "NJH",
+      "A": false,
+      "Z": false
+    },
+    "NKH": {
+      "name": "NKH",
+      "L": "DGF",
+      "R": "FJL",
+      "A": false,
+      "Z": false
+    },
+    "JXP": {
+      "name": "JXP",
+      "L": "DSF",
+      "R": "NQS",
+      "A": false,
+      "Z": false
+    },
+    "GXX": {
+      "name": "GXX",
+      "L": "CKC",
+      "R": "MFL",
+      "A": false,
+      "Z": false
+    },
+    "MXD": {
+      "name": "MXD",
+      "L": "KBC",
+      "R": "FGK",
+      "A": false,
+      "Z": false
+    },
+    "SCH": {
+      "name": "SCH",
+      "L": "XPG",
+      "R": "BTH",
+      "A": false,
+      "Z": false
+    },
+    "XSR": {
+      "name": "XSR",
+      "L": "MQN",
+      "R": "PLN",
+      "A": false,
+      "Z": false
+    },
+    "KKD": {
+      "name": "KKD",
+      "L": "NBD",
+      "R": "CXL",
+      "A": false,
+      "Z": false
+    },
+    "CLJ": {
+      "name": "CLJ",
+      "L": "GCN",
+      "R": "GCN",
+      "A": false,
+      "Z": false
+    },
+    "QVV": {
+      "name": "QVV",
+      "L": "THK",
+      "R": "LQV",
+      "A": false,
+      "Z": false
+    },
+    "VLH": {
+      "name": "VLH",
+      "L": "FFB",
+      "R": "STD",
+      "A": false,
+      "Z": false
+    },
+    "RTP": {
+      "name": "RTP",
+      "L": "CBC",
+      "R": "CXS",
+      "A": false,
+      "Z": false
+    },
+    "RVX": {
+      "name": "RVX",
+      "L": "BLF",
+      "R": "PTM",
+      "A": false,
+      "Z": false
+    },
+    "KBN": {
+      "name": "KBN",
+      "L": "JNF",
+      "R": "BTC",
+      "A": false,
+      "Z": false
+    },
+    "PFX": {
+      "name": "PFX",
+      "L": "JHM",
+      "R": "DTT",
+      "A": false,
+      "Z": false
+    },
+    "NVL": {
+      "name": "NVL",
+      "L": "KCM",
+      "R": "DLK",
+      "A": false,
+      "Z": false
+    },
+    "QRM": {
+      "name": "QRM",
+      "L": "CQK",
+      "R": "RBB",
+      "A": false,
+      "Z": false
+    },
+    "HKP": {
+      "name": "HKP",
+      "L": "SHN",
+      "R": "TMV",
+      "A": false,
+      "Z": false
+    },
+    "VXF": {
+      "name": "VXF",
+      "L": "TFF",
+      "R": "JRP",
+      "A": false,
+      "Z": false
+    },
+    "LDL": {
+      "name": "LDL",
+      "L": "LHM",
+      "R": "JMT",
+      "A": false,
+      "Z": false
+    },
+    "BQL": {
+      "name": "BQL",
+      "L": "DRS",
+      "R": "VQQ",
+      "A": false,
+      "Z": false
+    },
+    "FDC": {
+      "name": "FDC",
+      "L": "TNQ",
+      "R": "QDX",
+      "A": false,
+      "Z": false
+    },
+    "MMT": {
+      "name": "MMT",
+      "L": "MSL",
+      "R": "JCT",
+      "A": false,
+      "Z": false
+    },
+    "CXV": {
+      "name": "CXV",
+      "L": "HKR",
+      "R": "FHV",
+      "A": false,
+      "Z": false
+    },
+    "BKB": {
+      "name": "BKB",
+      "L": "FCM",
+      "R": "QTC",
+      "A": false,
+      "Z": false
+    },
+    "HRQ": {
+      "name": "HRQ",
+      "L": "RXG",
+      "R": "JSG",
+      "A": false,
+      "Z": false
+    },
+    "RKH": {
+      "name": "RKH",
+      "L": "JFF",
+      "R": "TKR",
+      "A": false,
+      "Z": false
+    },
+    "VQR": {
+      "name": "VQR",
+      "L": "JGD",
+      "R": "SFC",
+      "A": false,
+      "Z": false
+    },
+    "KCV": {
+      "name": "KCV",
+      "L": "LNG",
+      "R": "NCV",
+      "A": false,
+      "Z": false
+    },
+    "XSB": {
+      "name": "XSB",
+      "L": "DTG",
+      "R": "DFK",
+      "A": false,
+      "Z": false
+    },
+    "JGD": {
+      "name": "JGD",
+      "L": "HLP",
+      "R": "FNS",
+      "A": false,
+      "Z": false
+    },
+    "VCK": {
+      "name": "VCK",
+      "L": "RXP",
+      "R": "VRL",
+      "A": false,
+      "Z": false
+    },
+    "GTN": {
+      "name": "GTN",
+      "L": "BCP",
+      "R": "CKB",
+      "A": false,
+      "Z": false
+    },
+    "QDK": {
+      "name": "QDK",
+      "L": "CBD",
+      "R": "CDP",
+      "A": false,
+      "Z": false
+    },
+    "SNF": {
+      "name": "SNF",
+      "L": "JNH",
+      "R": "MJF",
+      "A": false,
+      "Z": false
+    },
+    "FVK": {
+      "name": "FVK",
+      "L": "QQV",
+      "R": "NRS",
+      "A": false,
+      "Z": false
+    },
+    "HHM": {
+      "name": "HHM",
+      "L": "VXK",
+      "R": "PJK",
+      "A": false,
+      "Z": false
+    },
+    "JRM": {
+      "name": "JRM",
+      "L": "DTG",
+      "R": "DFK",
+      "A": false,
+      "Z": false
+    },
+    "QPL": {
+      "name": "QPL",
+      "L": "XLK",
+      "R": "QDK",
+      "A": false,
+      "Z": false
+    },
+    "SCV": {
+      "name": "SCV",
+      "L": "QHP",
+      "R": "QXN",
+      "A": false,
+      "Z": false
+    },
+    "RQC": {
+      "name": "RQC",
+      "L": "QMD",
+      "R": "TPG",
+      "A": false,
+      "Z": false
+    },
+    "LFX": {
+      "name": "LFX",
+      "L": "BRH",
+      "R": "HGP",
+      "A": false,
+      "Z": false
+    },
+    "FRX": {
+      "name": "FRX",
+      "L": "CXS",
+      "R": "CBC",
+      "A": false,
+      "Z": false
+    },
+    "BTM": {
+      "name": "BTM",
+      "L": "FPK",
+      "R": "JVF",
+      "A": false,
+      "Z": false
+    },
+    "BPN": {
+      "name": "BPN",
+      "L": "LHN",
+      "R": "FKM",
+      "A": false,
+      "Z": false
+    },
+    "LRQ": {
+      "name": "LRQ",
+      "L": "LSQ",
+      "R": "PMP",
+      "A": false,
+      "Z": false
+    },
+    "TPV": {
+      "name": "TPV",
+      "L": "LQF",
+      "R": "KDN",
+      "A": false,
+      "Z": false
+    },
+    "XBN": {
+      "name": "XBN",
+      "L": "QDS",
+      "R": "DXP",
+      "A": false,
+      "Z": false
+    },
+    "RBB": {
+      "name": "RBB",
+      "L": "FCR",
+      "R": "HFN",
+      "A": false,
+      "Z": false
+    },
+    "XSM": {
+      "name": "XSM",
+      "L": "LNT",
+      "R": "STB",
+      "A": false,
+      "Z": false
+    },
+    "SBR": {
+      "name": "SBR",
+      "L": "PQT",
+      "R": "CNQ",
+      "A": false,
+      "Z": false
+    },
+    "LVM": {
+      "name": "LVM",
+      "L": "SBV",
+      "R": "LHS",
+      "A": false,
+      "Z": false
+    },
+    "KBC": {
+      "name": "KBC",
+      "L": "JHR",
+      "R": "TQP",
+      "A": false,
+      "Z": false
+    },
+    "DLJ": {
+      "name": "DLJ",
+      "L": "FGK",
+      "R": "KBC",
+      "A": false,
+      "Z": false
+    },
+    "LKG": {
+      "name": "LKG",
+      "L": "VJX",
+      "R": "HLQ",
+      "A": false,
+      "Z": false
+    },
+    "NXT": {
+      "name": "NXT",
+      "L": "VMT",
+      "R": "VBH",
+      "A": false,
+      "Z": false
+    },
+    "CBD": {
+      "name": "CBD",
+      "L": "HGN",
+      "R": "HBG",
+      "A": false,
+      "Z": false
+    },
+    "BHS": {
+      "name": "BHS",
+      "L": "VTF",
+      "R": "MRV",
+      "A": false,
+      "Z": false
+    },
+    "BTP": {
+      "name": "BTP",
+      "L": "GBG",
+      "R": "LKM",
+      "A": false,
+      "Z": false
+    },
+    "DSM": {
+      "name": "DSM",
+      "L": "CKK",
+      "R": "CKK",
+      "A": false,
+      "Z": false
+    },
+    "LSR": {
+      "name": "LSR",
+      "L": "CMB",
+      "R": "NLP",
+      "A": false,
+      "Z": false
+    },
+    "NPP": {
+      "name": "NPP",
+      "L": "BCX",
+      "R": "DTB",
+      "A": false,
+      "Z": false
+    },
+    "XCV": {
+      "name": "XCV",
+      "L": "SMS",
+      "R": "QJD",
+      "A": false,
+      "Z": false
+    },
+    "PNM": {
+      "name": "PNM",
+      "L": "BPQ",
+      "R": "NBM",
+      "A": false,
+      "Z": false
+    },
+    "VPS": {
+      "name": "VPS",
+      "L": "JJB",
+      "R": "XMR",
+      "A": false,
+      "Z": false
+    },
+    "JNH": {
+      "name": "JNH",
+      "L": "FCT",
+      "R": "NBT",
+      "A": false,
+      "Z": false
+    },
+    "KTN": {
+      "name": "KTN",
+      "L": "SHG",
+      "R": "PJG",
+      "A": false,
+      "Z": false
+    },
+    "FMJ": {
+      "name": "FMJ",
+      "L": "LQV",
+      "R": "THK",
+      "A": false,
+      "Z": false
+    },
+    "GFX": {
+      "name": "GFX",
+      "L": "NBB",
+      "R": "NBB",
+      "A": false,
+      "Z": false
+    },
+    "SRQ": {
+      "name": "SRQ",
+      "L": "GNS",
+      "R": "QGB",
+      "A": false,
+      "Z": false
+    },
+    "FQC": {
+      "name": "FQC",
+      "L": "DGF",
+      "R": "FJL",
+      "A": false,
+      "Z": false
+    },
+    "MPA": {
+      "name": "MPA",
+      "L": "BRS",
+      "R": "BSL",
+      "A": true,
+      "Z": false
+    },
+    "BMS": {
+      "name": "BMS",
+      "L": "FKS",
+      "R": "SKF",
+      "A": false,
+      "Z": false
+    },
+    "BMT": {
+      "name": "BMT",
+      "L": "JMG",
+      "R": "PCS",
+      "A": false,
+      "Z": false
+    },
+    "QFV": {
+      "name": "QFV",
+      "L": "SCH",
+      "R": "FDJ",
+      "A": false,
+      "Z": false
+    },
+    "STF": {
+      "name": "STF",
+      "L": "RCS",
+      "R": "FFD",
+      "A": false,
+      "Z": false
+    },
+    "JTS": {
+      "name": "JTS",
+      "L": "GGM",
+      "R": "SJS",
+      "A": false,
+      "Z": false
+    },
+    "NJQ": {
+      "name": "NJQ",
+      "L": "TKR",
+      "R": "JFF",
+      "A": false,
+      "Z": false
+    },
+    "MTQ": {
+      "name": "MTQ",
+      "L": "HLQ",
+      "R": "VJX",
+      "A": false,
+      "Z": false
+    },
+    "FGK": {
+      "name": "FGK",
+      "L": "TQP",
+      "R": "JHR",
+      "A": false,
+      "Z": false
+    },
+    "JNF": {
+      "name": "JNF",
+      "L": "TCV",
+      "R": "LJT",
+      "A": false,
+      "Z": false
+    },
+    "LKM": {
+      "name": "LKM",
+      "L": "KGC",
+      "R": "QNM",
+      "A": false,
+      "Z": false
+    },
+    "MXV": {
+      "name": "MXV",
+      "L": "BQP",
+      "R": "BXK",
+      "A": false,
+      "Z": false
+    },
+    "FRF": {
+      "name": "FRF",
+      "L": "LVM",
+      "R": "HGK",
+      "A": false,
+      "Z": false
+    },
+    "GGH": {
+      "name": "GGH",
+      "L": "BHB",
+      "R": "KNB",
+      "A": false,
+      "Z": false
+    },
+    "BGH": {
+      "name": "BGH",
+      "L": "KBX",
+      "R": "FDN",
+      "A": false,
+      "Z": false
+    },
+    "LQH": {
+      "name": "LQH",
+      "L": "JNF",
+      "R": "BTC",
+      "A": false,
+      "Z": false
+    },
+    "JVF": {
+      "name": "JVF",
+      "L": "LDS",
+      "R": "DCD",
+      "A": false,
+      "Z": false
+    },
+    "CLT": {
+      "name": "CLT",
+      "L": "QPL",
+      "R": "LFV",
+      "A": false,
+      "Z": false
+    },
+    "HRV": {
+      "name": "HRV",
+      "L": "TRD",
+      "R": "RXH",
+      "A": false,
+      "Z": false
+    },
+    "NBD": {
+      "name": "NBD",
+      "L": "PXP",
+      "R": "XBK",
+      "A": false,
+      "Z": false
+    },
+    "PJD": {
+      "name": "PJD",
+      "L": "JJD",
+      "R": "LQM",
+      "A": false,
+      "Z": false
+    },
+    "XMV": {
+      "name": "XMV",
+      "L": "BBF",
+      "R": "LKX",
+      "A": false,
+      "Z": false
+    },
+    "BCN": {
+      "name": "BCN",
+      "L": "PBH",
+      "R": "HPL",
+      "A": false,
+      "Z": false
+    },
+    "XMH": {
+      "name": "XMH",
+      "L": "JNG",
+      "R": "GCX",
+      "A": false,
+      "Z": false
+    },
+    "HFK": {
+      "name": "HFK",
+      "L": "GFG",
+      "R": "XTS",
+      "A": false,
+      "Z": false
+    },
+    "VTL": {
+      "name": "VTL",
+      "L": "RFC",
+      "R": "VPF",
+      "A": false,
+      "Z": false
+    },
+    "MSL": {
+      "name": "MSL",
+      "L": "NFQ",
+      "R": "NDJ",
+      "A": false,
+      "Z": false
+    },
+    "THH": {
+      "name": "THH",
+      "L": "KNG",
+      "R": "QNF",
+      "A": false,
+      "Z": false
+    },
+    "PCB": {
+      "name": "PCB",
+      "L": "PCX",
+      "R": "FLB",
+      "A": false,
+      "Z": false
+    },
+    "GBQ": {
+      "name": "GBQ",
+      "L": "PRR",
+      "R": "PSR",
+      "A": false,
+      "Z": false
+    },
+    "NMS": {
+      "name": "NMS",
+      "L": "BQC",
+      "R": "SCN",
+      "A": false,
+      "Z": false
+    },
+    "PDX": {
+      "name": "PDX",
+      "L": "BGP",
+      "R": "SFH",
+      "A": false,
+      "Z": false
+    },
+    "LDS": {
+      "name": "LDS",
+      "L": "TLJ",
+      "R": "LLD",
+      "A": false,
+      "Z": false
+    },
+    "HGV": {
+      "name": "HGV",
+      "L": "QPL",
+      "R": "LFV",
+      "A": false,
+      "Z": false
+    },
+    "LMK": {
+      "name": "LMK",
+      "L": "VKX",
+      "R": "JCV",
+      "A": false,
+      "Z": false
+    },
+    "NBM": {
+      "name": "NBM",
+      "L": "PKR",
+      "R": "QCS",
+      "A": false,
+      "Z": false
+    },
+    "NLR": {
+      "name": "NLR",
+      "L": "LKJ",
+      "R": "DGZ",
+      "A": false,
+      "Z": false
+    },
+    "QDN": {
+      "name": "QDN",
+      "L": "TRT",
+      "R": "JBX",
+      "A": false,
+      "Z": false
+    },
+    "MTH": {
+      "name": "MTH",
+      "L": "HMT",
+      "R": "NJM",
+      "A": false,
+      "Z": false
+    },
+    "CKF": {
+      "name": "CKF",
+      "L": "LKJ",
+      "R": "LKJ",
+      "A": false,
+      "Z": false
+    },
+    "FDN": {
+      "name": "FDN",
+      "L": "DGP",
+      "R": "JKM",
+      "A": false,
+      "Z": false
+    },
+    "CDR": {
+      "name": "CDR",
+      "L": "NCV",
+      "R": "LNG",
+      "A": false,
+      "Z": false
+    },
+    "SGJ": {
+      "name": "SGJ",
+      "L": "GBQ",
+      "R": "KXN",
+      "A": false,
+      "Z": false
+    },
+    "TMM": {
+      "name": "TMM",
+      "L": "VXK",
+      "R": "PJK",
+      "A": false,
+      "Z": false
+    },
+    "JSL": {
+      "name": "JSL",
+      "L": "CTS",
+      "R": "MTT",
+      "A": false,
+      "Z": false
+    },
+    "QGB": {
+      "name": "QGB",
+      "L": "TBK",
+      "R": "NHB",
+      "A": false,
+      "Z": false
+    },
+    "TDA": {
+      "name": "TDA",
+      "L": "GHJ",
+      "R": "QRC",
+      "A": true,
+      "Z": false
+    },
+    "GTF": {
+      "name": "GTF",
+      "L": "QDP",
+      "R": "GCJ",
+      "A": false,
+      "Z": false
+    },
+    "TCG": {
+      "name": "TCG",
+      "L": "FVK",
+      "R": "JVB",
+      "A": false,
+      "Z": false
+    },
+    "LXJ": {
+      "name": "LXJ",
+      "L": "FVN",
+      "R": "LHX",
+      "A": false,
+      "Z": false
+    },
+    "TQF": {
+      "name": "TQF",
+      "L": "RKL",
+      "R": "SHQ",
+      "A": false,
+      "Z": false
+    },
+    "ZZZ": {
+      "name": "ZZZ",
+      "L": "VQQ",
+      "R": "DRS",
+      "A": false,
+      "Z": true
+    },
+    "NCV": {
+      "name": "NCV",
+      "L": "CRJ",
+      "R": "GBL",
+      "A": false,
+      "Z": false
+    },
+    "BKF": {
+      "name": "BKF",
+      "L": "CJP",
+      "R": "PRL",
+      "A": false,
+      "Z": false
+    },
+    "QPD": {
+      "name": "QPD",
+      "L": "DQN",
+      "R": "JBQ",
+      "A": false,
+      "Z": false
+    },
+    "MFL": {
+      "name": "MFL",
+      "L": "PJD",
+      "R": "TRS",
+      "A": false,
+      "Z": false
+    },
+    "NHG": {
+      "name": "NHG",
+      "L": "HGK",
+      "R": "LVM",
+      "A": false,
+      "Z": false
+    },
+    "MRV": {
+      "name": "MRV",
+      "L": "MLH",
+      "R": "TBV",
+      "A": false,
+      "Z": false
+    },
+    "XHS": {
+      "name": "XHS",
+      "L": "PSN",
+      "R": "HRQ",
+      "A": false,
+      "Z": false
+    },
+    "JJB": {
+      "name": "JJB",
+      "L": "NJQ",
+      "R": "RKH",
+      "A": false,
+      "Z": false
+    },
+    "TGK": {
+      "name": "TGK",
+      "L": "SFG",
+      "R": "FDS",
+      "A": false,
+      "Z": false
+    },
+    "CGS": {
+      "name": "CGS",
+      "L": "TRD",
+      "R": "RXH",
+      "A": false,
+      "Z": false
+    },
+    "GCN": {
+      "name": "GCN",
+      "L": "NCN",
+      "R": "CVS",
+      "A": false,
+      "Z": false
+    },
+    "PNN": {
+      "name": "PNN",
+      "L": "BKK",
+      "R": "CQC",
+      "A": false,
+      "Z": false
+    },
+    "LSQ": {
+      "name": "LSQ",
+      "L": "KCC",
+      "R": "GSP",
+      "A": false,
+      "Z": false
+    },
+    "LND": {
+      "name": "LND",
+      "L": "RLS",
+      "R": "LPX",
+      "A": false,
+      "Z": false
+    },
+    "CPG": {
+      "name": "CPG",
+      "L": "VGM",
+      "R": "RXV",
+      "A": false,
+      "Z": false
+    },
+    "GSF": {
+      "name": "GSF",
+      "L": "HMJ",
+      "R": "RMH",
+      "A": false,
+      "Z": false
+    },
+    "JRH": {
+      "name": "JRH",
+      "L": "VQR",
+      "R": "BVM",
+      "A": false,
+      "Z": false
+    },
+    "FJB": {
+      "name": "FJB",
+      "L": "DTT",
+      "R": "JHM",
+      "A": false,
+      "Z": false
+    },
+    "FKM": {
+      "name": "FKM",
+      "L": "BFK",
+      "R": "XCQ",
+      "A": false,
+      "Z": false
+    },
+    "LPT": {
+      "name": "LPT",
+      "L": "PRD",
+      "R": "CGB",
+      "A": false,
+      "Z": false
+    },
+    "XVG": {
+      "name": "XVG",
+      "L": "CRL",
+      "R": "BNJ",
+      "A": false,
+      "Z": false
+    },
+    "KRS": {
+      "name": "KRS",
+      "L": "FDJ",
+      "R": "SCH",
+      "A": false,
+      "Z": false
+    },
+    "BNL": {
+      "name": "BNL",
+      "L": "BQL",
+      "R": "ZZZ",
+      "A": false,
+      "Z": false
+    },
+    "JMB": {
+      "name": "JMB",
+      "L": "XVD",
+      "R": "MBH",
+      "A": false,
+      "Z": false
+    },
+    "KKH": {
+      "name": "KKH",
+      "L": "RLN",
+      "R": "PHV",
+      "A": false,
+      "Z": false
+    },
+    "MTB": {
+      "name": "MTB",
+      "L": "PSP",
+      "R": "VCX",
+      "A": false,
+      "Z": false
+    },
+    "NCN": {
+      "name": "NCN",
+      "L": "FFV",
+      "R": "RQC",
+      "A": false,
+      "Z": false
+    },
+    "FVC": {
+      "name": "FVC",
+      "L": "QJC",
+      "R": "SRG",
+      "A": false,
+      "Z": false
+    },
+    "FTS": {
+      "name": "FTS",
+      "L": "THG",
+      "R": "XXL",
+      "A": false,
+      "Z": false
+    },
+    "SFG": {
+      "name": "SFG",
+      "L": "BCN",
+      "R": "DBN",
+      "A": false,
+      "Z": false
+    },
+    "RXH": {
+      "name": "RXH",
+      "L": "XQT",
+      "R": "SDR",
+      "A": false,
+      "Z": false
+    },
+    "MLR": {
+      "name": "MLR",
+      "L": "GDQ",
+      "R": "VNC",
+      "A": false,
+      "Z": false
+    },
+    "TRD": {
+      "name": "TRD",
+      "L": "XQT",
+      "R": "SDR",
+      "A": false,
+      "Z": false
+    },
+    "BGD": {
+      "name": "BGD",
+      "L": "GLJ",
+      "R": "FNK",
+      "A": false,
+      "Z": false
+    },
+    "XDJ": {
+      "name": "XDJ",
+      "L": "MPS",
+      "R": "RJB",
+      "A": false,
+      "Z": false
+    },
+    "JMJ": {
+      "name": "JMJ",
+      "L": "MDJ",
+      "R": "RTV",
+      "A": false,
+      "Z": false
+    },
+    "RVC": {
+      "name": "RVC",
+      "L": "PXQ",
+      "R": "NRJ",
+      "A": false,
+      "Z": false
+    },
+    "QQV": {
+      "name": "QQV",
+      "L": "CLT",
+      "R": "HGV",
+      "A": false,
+      "Z": false
+    },
+    "MLD": {
+      "name": "MLD",
+      "L": "QGB",
+      "R": "GNS",
+      "A": false,
+      "Z": false
+    },
+    "KPH": {
+      "name": "KPH",
+      "L": "HRQ",
+      "R": "PSN",
+      "A": false,
+      "Z": false
+    },
+    "RLN": {
+      "name": "RLN",
+      "L": "TFR",
+      "R": "SNM",
+      "A": false,
+      "Z": false
+    },
+    "JRP": {
+      "name": "JRP",
+      "L": "DSX",
+      "R": "HPD",
+      "A": false,
+      "Z": false
+    },
+    "SJS": {
+      "name": "SJS",
+      "L": "DSM",
+      "R": "NKL",
+      "A": false,
+      "Z": false
+    },
+    "PGD": {
+      "name": "PGD",
+      "L": "CGS",
+      "R": "HRV",
+      "A": false,
+      "Z": false
+    },
+    "HPL": {
+      "name": "HPL",
+      "L": "GKH",
+      "R": "CVN",
+      "A": false,
+      "Z": false
+    },
+    "MQK": {
+      "name": "MQK",
+      "L": "PTB",
+      "R": "KJB",
+      "A": false,
+      "Z": false
+    },
+    "QCR": {
+      "name": "QCR",
+      "L": "MHV",
+      "R": "FTS",
+      "A": false,
+      "Z": false
+    },
+    "VCG": {
+      "name": "VCG",
+      "L": "BQR",
+      "R": "FRV",
+      "A": false,
+      "Z": false
+    },
+    "LXV": {
+      "name": "LXV",
+      "L": "XMR",
+      "R": "JJB",
+      "A": false,
+      "Z": false
+    },
+    "PKR": {
+      "name": "PKR",
+      "L": "QSH",
+      "R": "XMV",
+      "A": false,
+      "Z": false
+    },
+    "JSB": {
+      "name": "JSB",
+      "L": "DLJ",
+      "R": "MXD",
+      "A": false,
+      "Z": false
+    },
+    "VRL": {
+      "name": "VRL",
+      "L": "JNS",
+      "R": "HFP",
+      "A": false,
+      "Z": false
+    },
+    "PHJ": {
+      "name": "PHJ",
+      "L": "BTF",
+      "R": "BTP",
+      "A": false,
+      "Z": false
+    },
+    "CXL": {
+      "name": "CXL",
+      "L": "XBK",
+      "R": "PXP",
+      "A": false,
+      "Z": false
+    },
+    "FNN": {
+      "name": "FNN",
+      "L": "TSP",
+      "R": "HSX",
+      "A": false,
+      "Z": false
+    },
+    "XQT": {
+      "name": "XQT",
+      "L": "VHH",
+      "R": "QHT",
+      "A": false,
+      "Z": false
+    },
+    "LQV": {
+      "name": "LQV",
+      "L": "DQK",
+      "R": "JMB",
+      "A": false,
+      "Z": false
+    },
+    "RLS": {
+      "name": "RLS",
+      "L": "NBP",
+      "R": "SSC",
+      "A": false,
+      "Z": false
+    },
+    "TCV": {
+      "name": "TCV",
+      "L": "MDL",
+      "R": "MMT",
+      "A": false,
+      "Z": false
+    },
+    "QTC": {
+      "name": "QTC",
+      "L": "LFX",
+      "R": "RJF",
+      "A": false,
+      "Z": false
+    },
+    "LRK": {
+      "name": "LRK",
+      "L": "MFL",
+      "R": "CKC",
+      "A": false,
+      "Z": false
+    },
+    "MHK": {
+      "name": "MHK",
+      "L": "FGF",
+      "R": "FDF",
+      "A": false,
+      "Z": false
+    },
+    "RLJ": {
+      "name": "RLJ",
+      "L": "HJX",
+      "R": "CNC",
+      "A": false,
+      "Z": false
+    },
+    "TLK": {
+      "name": "TLK",
+      "L": "RFL",
+      "R": "VCK",
+      "A": false,
+      "Z": false
+    },
+    "CNC": {
+      "name": "CNC",
+      "L": "HJQ",
+      "R": "CNR",
+      "A": false,
+      "Z": false
+    },
+    "LQL": {
+      "name": "LQL",
+      "L": "FRX",
+      "R": "RTP",
+      "A": false,
+      "Z": false
+    },
+    "QQM": {
+      "name": "QQM",
+      "L": "MFQ",
+      "R": "BNR",
+      "A": false,
+      "Z": false
+    },
+    "VBH": {
+      "name": "VBH",
+      "L": "HLB",
+      "R": "JMJ",
+      "A": false,
+      "Z": false
+    },
+    "GKX": {
+      "name": "GKX",
+      "L": "TGK",
+      "R": "QKP",
+      "A": false,
+      "Z": false
+    },
+    "KQG": {
+      "name": "KQG",
+      "L": "JRH",
+      "R": "VNT",
+      "A": false,
+      "Z": false
+    },
+    "XDR": {
+      "name": "XDR",
+      "L": "DNF",
+      "R": "KJV",
+      "A": false,
+      "Z": false
+    },
+    "GMJ": {
+      "name": "GMJ",
+      "L": "HKP",
+      "R": "TGX",
+      "A": false,
+      "Z": false
+    },
+    "VRQ": {
+      "name": "VRQ",
+      "L": "VTF",
+      "R": "MRV",
+      "A": false,
+      "Z": false
+    },
+    "HGP": {
+      "name": "HGP",
+      "L": "VNB",
+      "R": "LDL",
+      "A": false,
+      "Z": false
+    },
+    "LNG": {
+      "name": "LNG",
+      "L": "GBL",
+      "R": "CRJ",
+      "A": false,
+      "Z": false
+    },
+    "BSF": {
+      "name": "BSF",
+      "L": "LKG",
+      "R": "MTQ",
+      "A": false,
+      "Z": false
+    },
+    "BRH": {
+      "name": "BRH",
+      "L": "VNB",
+      "R": "LDL",
+      "A": false,
+      "Z": false
+    },
+    "PJQ": {
+      "name": "PJQ",
+      "L": "BGD",
+      "R": "DLX",
+      "A": false,
+      "Z": false
+    },
+    "QKF": {
+      "name": "QKF",
+      "L": "CGR",
+      "R": "KTX",
+      "A": false,
+      "Z": false
+    },
+    "QMD": {
+      "name": "QMD",
+      "L": "TND",
+      "R": "QSF",
+      "A": false,
+      "Z": false
+    },
+    "PQH": {
+      "name": "PQH",
+      "L": "MKS",
+      "R": "STP",
+      "A": false,
+      "Z": false
+    },
+    "FRV": {
+      "name": "FRV",
+      "L": "PDX",
+      "R": "PMX",
+      "A": false,
+      "Z": false
+    },
+    "LPF": {
+      "name": "LPF",
+      "L": "JBQ",
+      "R": "DQN",
+      "A": false,
+      "Z": false
+    },
+    "CQM": {
+      "name": "CQM",
+      "L": "TDH",
+      "R": "JPR",
+      "A": false,
+      "Z": false
+    },
+    "HJX": {
+      "name": "HJX",
+      "L": "CNR",
+      "R": "HJQ",
+      "A": false,
+      "Z": false
+    },
+    "AAA": {
+      "name": "AAA",
+      "L": "DRS",
+      "R": "VQQ",
+      "A": true,
+      "Z": false
+    },
+    "TDH": {
+      "name": "TDH",
+      "L": "VGX",
+      "R": "TCF",
+      "A": false,
+      "Z": false
+    },
+    "TGX": {
+      "name": "TGX",
+      "L": "TMV",
+      "R": "SHN",
+      "A": false,
+      "Z": false
+    },
+    "BDH": {
+      "name": "BDH",
+      "L": "XFV",
+      "R": "GSF",
+      "A": false,
+      "Z": false
+    },
+    "GXK": {
+      "name": "GXK",
+      "L": "BFP",
+      "R": "TFH",
+      "A": false,
+      "Z": false
+    },
+    "BFT": {
+      "name": "BFT",
+      "L": "MFQ",
+      "R": "BNR",
+      "A": false,
+      "Z": false
+    },
+    "NGD": {
+      "name": "NGD",
+      "L": "QHG",
+      "R": "MCC",
+      "A": false,
+      "Z": false
+    },
+    "FPK": {
+      "name": "FPK",
+      "L": "DCD",
+      "R": "LDS",
+      "A": false,
+      "Z": false
+    },
+    "MTR": {
+      "name": "MTR",
+      "L": "KNB",
+      "R": "BHB",
+      "A": false,
+      "Z": false
+    },
+    "SNM": {
+      "name": "SNM",
+      "L": "MFJ",
+      "R": "HXJ",
+      "A": false,
+      "Z": false
+    },
+    "HLP": {
+      "name": "HLP",
+      "L": "RHQ",
+      "R": "SVR",
+      "A": false,
+      "Z": false
+    },
+    "JSP": {
+      "name": "JSP",
+      "L": "VGC",
+      "R": "SSF",
+      "A": false,
+      "Z": false
+    },
+    "NJH": {
+      "name": "NJH",
+      "L": "RJN",
+      "R": "DBT",
+      "A": false,
+      "Z": false
+    },
+    "SKF": {
+      "name": "SKF",
+      "L": "GRG",
+      "R": "JSB",
+      "A": false,
+      "Z": false
+    },
+    "PTM": {
+      "name": "PTM",
+      "L": "TKN",
+      "R": "PCQ",
+      "A": false,
+      "Z": false
+    },
+    "QGQ": {
+      "name": "QGQ",
+      "L": "PHV",
+      "R": "RLN",
+      "A": false,
+      "Z": false
+    },
+    "SSF": {
+      "name": "SSF",
+      "L": "NVL",
+      "R": "JPB",
+      "A": false,
+      "Z": false
+    },
+    "PCQ": {
+      "name": "PCQ",
+      "L": "LTC",
+      "R": "PCH",
+      "A": false,
+      "Z": false
+    },
+    "KJV": {
+      "name": "KJV",
+      "L": "GMS",
+      "R": "XGF",
+      "A": false,
+      "Z": false
+    },
+    "JSD": {
+      "name": "JSD",
+      "L": "XHP",
+      "R": "DKM",
+      "A": false,
+      "Z": false
+    },
+    "RRB": {
+      "name": "RRB",
+      "L": "LQF",
+      "R": "KDN",
+      "A": false,
+      "Z": false
+    },
+    "GJJ": {
+      "name": "GJJ",
+      "L": "FLT",
+      "R": "BNV",
+      "A": false,
+      "Z": false
+    },
+    "FJA": {
+      "name": "FJA",
+      "L": "HJX",
+      "R": "CNC",
+      "A": true,
+      "Z": false
+    },
+    "HLQ": {
+      "name": "HLQ",
+      "L": "XRK",
+      "R": "VDQ",
+      "A": false,
+      "Z": false
+    },
+    "KTP": {
+      "name": "KTP",
+      "L": "LPF",
+      "R": "QPD",
+      "A": false,
+      "Z": false
+    },
+    "PRD": {
+      "name": "PRD",
+      "L": "LRM",
+      "R": "MTH",
+      "A": false,
+      "Z": false
+    },
+    "QNF": {
+      "name": "QNF",
+      "L": "CHP",
+      "R": "FNN",
+      "A": false,
+      "Z": false
+    },
+    "DQK": {
+      "name": "DQK",
+      "L": "MBH",
+      "R": "XVD",
+      "A": false,
+      "Z": false
+    },
+    "TMS": {
+      "name": "TMS",
+      "L": "CLJ",
+      "R": "XML",
+      "A": false,
+      "Z": false
+    },
+    "QVP": {
+      "name": "QVP",
+      "L": "FNB",
+      "R": "LSP",
+      "A": false,
+      "Z": false
+    },
+    "BPX": {
+      "name": "BPX",
+      "L": "QJC",
+      "R": "SRG",
+      "A": false,
+      "Z": false
+    },
+    "QXN": {
+      "name": "QXN",
+      "L": "KQG",
+      "R": "BML",
+      "A": false,
+      "Z": false
+    },
+    "VGQ": {
+      "name": "VGQ",
+      "L": "JVF",
+      "R": "FPK",
+      "A": false,
+      "Z": false
+    },
+    "BRS": {
+      "name": "BRS",
+      "L": "CDL",
+      "R": "GFJ",
+      "A": false,
+      "Z": false
+    },
+    "NQS": {
+      "name": "NQS",
+      "L": "VKC",
+      "R": "SDV",
+      "A": false,
+      "Z": false
+    },
+    "LFV": {
+      "name": "LFV",
+      "L": "XLK",
+      "R": "QDK",
+      "A": false,
+      "Z": false
+    },
+    "SMS": {
+      "name": "SMS",
+      "L": "RPQ",
+      "R": "PDT",
+      "A": false,
+      "Z": false
+    },
+    "BBF": {
+      "name": "BBF",
+      "L": "CGV",
+      "R": "KRM",
+      "A": false,
+      "Z": false
+    },
+    "VMT": {
+      "name": "VMT",
+      "L": "HLB",
+      "R": "JMJ",
+      "A": false,
+      "Z": false
+    },
+    "QSF": {
+      "name": "QSF",
+      "L": "JSL",
+      "R": "LRF",
+      "A": false,
+      "Z": false
+    },
+    "CJQ": {
+      "name": "CJQ",
+      "L": "XSR",
+      "R": "LHP",
+      "A": false,
+      "Z": false
+    },
+    "RDF": {
+      "name": "RDF",
+      "L": "KKD",
+      "R": "SQM",
+      "A": false,
+      "Z": false
+    },
+    "MKS": {
+      "name": "MKS",
+      "L": "CKF",
+      "R": "CKF",
+      "A": false,
+      "Z": false
+    },
+    "STD": {
+      "name": "STD",
+      "L": "MNM",
+      "R": "TMS",
+      "A": false,
+      "Z": false
+    },
+    "DNS": {
+      "name": "DNS",
+      "L": "MRQ",
+      "R": "XFT",
+      "A": false,
+      "Z": false
+    },
+    "MFG": {
+      "name": "MFG",
+      "L": "RQR",
+      "R": "BXQ",
+      "A": false,
+      "Z": false
+    },
+    "GBG": {
+      "name": "GBG",
+      "L": "QNM",
+      "R": "KGC",
+      "A": false,
+      "Z": false
+    },
+    "JNG": {
+      "name": "JNG",
+      "L": "RDG",
+      "R": "SCV",
+      "A": false,
+      "Z": false
+    },
+    "CVN": {
+      "name": "CVN",
+      "L": "GJJ",
+      "R": "QVC",
+      "A": false,
+      "Z": false
+    },
+    "HMT": {
+      "name": "HMT",
+      "L": "BVL",
+      "R": "KLQ",
+      "A": false,
+      "Z": false
+    },
+    "VTQ": {
+      "name": "VTQ",
+      "L": "NTC",
+      "R": "BNL",
+      "A": false,
+      "Z": false
+    },
+    "TGB": {
+      "name": "TGB",
+      "L": "JTK",
+      "R": "VMK",
+      "A": false,
+      "Z": false
+    },
+    "PSR": {
+      "name": "PSR",
+      "L": "NPK",
+      "R": "BDP",
+      "A": false,
+      "Z": false
+    },
+    "MDJ": {
+      "name": "MDJ",
+      "L": "DSB",
+      "R": "SJB",
+      "A": false,
+      "Z": false
+    },
+    "CKB": {
+      "name": "CKB",
+      "L": "VSB",
+      "R": "TCG",
+      "A": false,
+      "Z": false
+    },
+    "DNF": {
+      "name": "DNF",
+      "L": "GMS",
+      "R": "XGF",
+      "A": false,
+      "Z": false
+    },
+    "LQK": {
+      "name": "LQK",
+      "L": "XFR",
+      "R": "RDF",
+      "A": false,
+      "Z": false
+    },
+    "RHQ": {
+      "name": "RHQ",
+      "L": "KPX",
+      "R": "QTM",
+      "A": false,
+      "Z": false
+    },
+    "VKX": {
+      "name": "VKX",
+      "L": "STQ",
+      "R": "JSQ",
+      "A": false,
+      "Z": false
+    },
+    "BRX": {
+      "name": "BRX",
+      "L": "DDR",
+      "R": "TJD",
+      "A": false,
+      "Z": false
+    },
+    "LJN": {
+      "name": "LJN",
+      "L": "NLP",
+      "R": "CMB",
+      "A": false,
+      "Z": false
+    },
+    "DJR": {
+      "name": "DJR",
+      "L": "HMK",
+      "R": "PGQ",
+      "A": false,
+      "Z": false
+    },
+    "VNB": {
+      "name": "VNB",
+      "L": "JMT",
+      "R": "LHM",
+      "A": false,
+      "Z": false
+    },
+    "DBM": {
+      "name": "DBM",
+      "L": "SBR",
+      "R": "MTF",
+      "A": false,
+      "Z": false
+    },
+    "KLQ": {
+      "name": "KLQ",
+      "L": "XBN",
+      "R": "MNH",
+      "A": false,
+      "Z": false
+    },
+    "MDL": {
+      "name": "MDL",
+      "L": "MSL",
+      "R": "JCT",
+      "A": false,
+      "Z": false
+    },
+    "SQX": {
+      "name": "SQX",
+      "L": "TPV",
+      "R": "RRB",
+      "A": false,
+      "Z": false
+    },
+    "CLD": {
+      "name": "CLD",
+      "L": "CQK",
+      "R": "RBB",
+      "A": false,
+      "Z": false
+    },
+    "HPD": {
+      "name": "HPD",
+      "L": "RLJ",
+      "R": "CJZ",
+      "A": false,
+      "Z": false
+    },
+    "LHN": {
+      "name": "LHN",
+      "L": "BFK",
+      "R": "XCQ",
+      "A": false,
+      "Z": false
+    },
+    "KJB": {
+      "name": "KJB",
+      "L": "TMC",
+      "R": "QCR",
+      "A": false,
+      "Z": false
+    },
+    "RLG": {
+      "name": "RLG",
+      "L": "RVX",
+      "R": "CDB",
+      "A": false,
+      "Z": false
+    },
+    "PBH": {
+      "name": "PBH",
+      "L": "GKH",
+      "R": "CVN",
+      "A": false,
+      "Z": false
+    },
+    "DMB": {
+      "name": "DMB",
+      "L": "HHD",
+      "R": "MSZ",
+      "A": false,
+      "Z": false
+    },
+    "SDV": {
+      "name": "SDV",
+      "L": "GXK",
+      "R": "QSB",
+      "A": false,
+      "Z": false
+    },
+    "KPX": {
+      "name": "KPX",
+      "L": "XDJ",
+      "R": "QTF",
+      "A": false,
+      "Z": false
+    },
+    "NBB": {
+      "name": "NBB",
+      "L": "MTN",
+      "R": "MTN",
+      "A": false,
+      "Z": false
+    },
+    "BTX": {
+      "name": "BTX",
+      "L": "BRT",
+      "R": "GSM",
+      "A": false,
+      "Z": false
+    },
+    "HGN": {
+      "name": "HGN",
+      "L": "HJT",
+      "R": "RBX",
+      "A": false,
+      "Z": false
+    },
+    "GDS": {
+      "name": "GDS",
+      "L": "XSM",
+      "R": "BGG",
+      "A": false,
+      "Z": false
+    },
+    "KDN": {
+      "name": "KDN",
+      "L": "KTN",
+      "R": "BJT",
+      "A": false,
+      "Z": false
+    },
+    "GSL": {
+      "name": "GSL",
+      "L": "TRQ",
+      "R": "PHJ",
+      "A": false,
+      "Z": false
+    },
+    "SFR": {
+      "name": "SFR",
+      "L": "XHS",
+      "R": "KPH",
+      "A": false,
+      "Z": false
+    },
+    "JNV": {
+      "name": "JNV",
+      "L": "TVL",
+      "R": "PNM",
+      "A": false,
+      "Z": false
+    },
+    "JNS": {
+      "name": "JNS",
+      "L": "VCD",
+      "R": "CXV",
+      "A": false,
+      "Z": false
+    },
+    "LHM": {
+      "name": "LHM",
+      "L": "GXV",
+      "R": "RTX",
+      "A": false,
+      "Z": false
+    },
+    "TFH": {
+      "name": "TFH",
+      "L": "MTD",
+      "R": "PFG",
+      "A": false,
+      "Z": false
+    },
+    "GHJ": {
+      "name": "GHJ",
+      "L": "CSN",
+      "R": "XVS",
+      "A": false,
+      "Z": false
+    },
+    "KNQ": {
+      "name": "KNQ",
+      "L": "LRK",
+      "R": "GXX",
+      "A": false,
+      "Z": false
+    },
+    "PRT": {
+      "name": "PRT",
+      "L": "RNV",
+      "R": "RGX",
+      "A": false,
+      "Z": false
+    },
+    "JTK": {
+      "name": "JTK",
+      "L": "BMT",
+      "R": "JXJ",
+      "A": false,
+      "Z": false
+    },
+    "MRQ": {
+      "name": "MRQ",
+      "L": "VPT",
+      "R": "FLH",
+      "A": false,
+      "Z": false
+    },
+    "TKN": {
+      "name": "TKN",
+      "L": "LTC",
+      "R": "PCH",
+      "A": false,
+      "Z": false
+    },
+    "VSN": {
+      "name": "VSN",
+      "L": "XFR",
+      "R": "RDF",
+      "A": false,
+      "Z": false
+    },
+    "HXJ": {
+      "name": "HXJ",
+      "L": "DBB",
+      "R": "HBH",
+      "A": false,
+      "Z": false
+    },
+    "PRL": {
+      "name": "PRL",
+      "L": "THH",
+      "R": "TTH",
+      "A": false,
+      "Z": false
+    },
+    "GCX": {
+      "name": "GCX",
+      "L": "RDG",
+      "R": "SCV",
+      "A": false,
+      "Z": false
+    },
+    "MNH": {
+      "name": "MNH",
+      "L": "DXP",
+      "R": "QDS",
+      "A": false,
+      "Z": false
+    },
+    "CMB": {
+      "name": "CMB",
+      "L": "XQB",
+      "R": "RKB",
+      "A": false,
+      "Z": false
+    },
+    "CHP": {
+      "name": "CHP",
+      "L": "TSP",
+      "R": "HSX",
+      "A": false,
+      "Z": false
+    },
+    "BCP": {
+      "name": "BCP",
+      "L": "TCG",
+      "R": "VSB",
+      "A": false,
+      "Z": false
+    },
+    "LNT": {
+      "name": "LNT",
+      "L": "HQM",
+      "R": "FGJ",
+      "A": false,
+      "Z": false
+    },
+    "FNK": {
+      "name": "FNK",
+      "L": "XNX",
+      "R": "RKP",
+      "A": false,
+      "Z": false
+    },
+    "HRT": {
+      "name": "HRT",
+      "L": "FJB",
+      "R": "PFX",
+      "A": false,
+      "Z": false
+    },
+    "HTC": {
+      "name": "HTC",
+      "L": "CGS",
+      "R": "HRV",
+      "A": false,
+      "Z": false
+    },
+    "SDR": {
+      "name": "SDR",
+      "L": "QHT",
+      "R": "VHH",
+      "A": false,
+      "Z": false
+    },
+    "CQK": {
+      "name": "CQK",
+      "L": "FCR",
+      "R": "HFN",
+      "A": false,
+      "Z": false
+    },
+    "LVN": {
+      "name": "LVN",
+      "L": "FGP",
+      "R": "BKF",
+      "A": false,
+      "Z": false
+    },
+    "FDS": {
+      "name": "FDS",
+      "L": "DBN",
+      "R": "BCN",
+      "A": false,
+      "Z": false
+    },
+    "QCS": {
+      "name": "QCS",
+      "L": "QSH",
+      "R": "XMV",
+      "A": false,
+      "Z": false
+    },
+    "TRT": {
+      "name": "TRT",
+      "L": "KFQ",
+      "R": "SGJ",
+      "A": false,
+      "Z": false
+    },
+    "RQH": {
+      "name": "RQH",
+      "L": "FDN",
+      "R": "KBX",
+      "A": false,
+      "Z": false
+    },
+    "QJC": {
+      "name": "QJC",
+      "L": "QKK",
+      "R": "LND",
+      "A": false,
+      "Z": false
+    },
+    "MVD": {
+      "name": "MVD",
+      "L": "SBR",
+      "R": "MTF",
+      "A": false,
+      "Z": false
+    },
+    "SBG": {
+      "name": "SBG",
+      "L": "RFL",
+      "R": "VCK",
+      "A": false,
+      "Z": false
+    },
+    "DSX": {
+      "name": "DSX",
+      "L": "RLJ",
+      "R": "RLJ",
+      "A": false,
+      "Z": false
+    },
+    "JBX": {
+      "name": "JBX",
+      "L": "KFQ",
+      "R": "SGJ",
+      "A": false,
+      "Z": false
+    },
+    "JVV": {
+      "name": "JVV",
+      "L": "RRB",
+      "R": "TPV",
+      "A": false,
+      "Z": false
+    },
+    "BBR": {
+      "name": "BBR",
+      "L": "FKS",
+      "R": "SKF",
+      "A": false,
+      "Z": false
+    },
+    "KTX": {
+      "name": "KTX",
+      "L": "VDX",
+      "R": "XDR",
+      "A": false,
+      "Z": false
+    },
+    "CSN": {
+      "name": "CSN",
+      "L": "NNM",
+      "R": "CBK",
+      "A": false,
+      "Z": false
+    },
+    "NNM": {
+      "name": "NNM",
+      "L": "RTN",
+      "R": "TGB",
+      "A": false,
+      "Z": false
+    },
+    "VXK": {
+      "name": "VXK",
+      "L": "NGD",
+      "R": "NTM",
+      "A": false,
+      "Z": false
+    },
+    "DQD": {
+      "name": "DQD",
+      "L": "FJB",
+      "R": "PFX",
+      "A": false,
+      "Z": false
+    },
+    "CDB": {
+      "name": "CDB",
+      "L": "BLF",
+      "R": "PTM",
+      "A": false,
+      "Z": false
+    },
+    "GBL": {
+      "name": "GBL",
+      "L": "BPN",
+      "R": "KKS",
+      "A": false,
+      "Z": false
+    },
+    "BGP": {
+      "name": "BGP",
+      "L": "SNT",
+      "R": "BRX",
+      "A": false,
+      "Z": false
+    },
+    "CRP": {
+      "name": "CRP",
+      "L": "FDC",
+      "R": "TPJ",
+      "A": false,
+      "Z": false
+    },
+    "DFK": {
+      "name": "DFK",
+      "L": "KVV",
+      "R": "SQD",
+      "A": false,
+      "Z": false
+    },
+    "LVQ": {
+      "name": "LVQ",
+      "L": "KNQ",
+      "R": "FBX",
+      "A": false,
+      "Z": false
+    },
+    "HSB": {
+      "name": "HSB",
+      "L": "PBK",
+      "R": "SHB",
+      "A": false,
+      "Z": false
+    },
+    "PJG": {
+      "name": "PJG",
+      "L": "TNP",
+      "R": "CQM",
+      "A": false,
+      "Z": false
+    },
+    "JPB": {
+      "name": "JPB",
+      "L": "KCM",
+      "R": "DLK",
+      "A": false,
+      "Z": false
+    },
+    "JJS": {
+      "name": "JJS",
+      "L": "PXQ",
+      "R": "NRJ",
+      "A": false,
+      "Z": false
+    },
+    "XGF": {
+      "name": "XGF",
+      "L": "QDH",
+      "R": "PFV",
+      "A": false,
+      "Z": false
+    },
+    "DKM": {
+      "name": "DKM",
+      "L": "KBL",
+      "R": "PJQ",
+      "A": false,
+      "Z": false
+    },
+    "DVB": {
+      "name": "DVB",
+      "L": "GSM",
+      "R": "BRT",
+      "A": false,
+      "Z": false
+    },
+    "TMC": {
+      "name": "TMC",
+      "L": "MHV",
+      "R": "FTS",
+      "A": false,
+      "Z": false
+    },
+    "TRQ": {
+      "name": "TRQ",
+      "L": "BTP",
+      "R": "BTF",
+      "A": false,
+      "Z": false
+    },
+    "FLB": {
+      "name": "FLB",
+      "L": "FCV",
+      "R": "FKJ",
+      "A": false,
+      "Z": false
+    },
+    "BVL": {
+      "name": "BVL",
+      "L": "MNH",
+      "R": "XBN",
+      "A": false,
+      "Z": false
+    },
+    "XPA": {
+      "name": "XPA",
+      "L": "NCN",
+      "R": "CVS",
+      "A": true,
+      "Z": false
+    },
+    "XPS": {
+      "name": "XPS",
+      "L": "PNM",
+      "R": "TVL",
+      "A": false,
+      "Z": false
+    },
+    "CPN": {
+      "name": "CPN",
+      "L": "RDJ",
+      "R": "JMK",
+      "A": false,
+      "Z": false
+    },
+    "RQR": {
+      "name": "RQR",
+      "L": "DKX",
+      "R": "CJQ",
+      "A": false,
+      "Z": false
+    },
+    "SFH": {
+      "name": "SFH",
+      "L": "SNT",
+      "R": "BRX",
+      "A": false,
+      "Z": false
+    },
+    "DBT": {
+      "name": "DBT",
+      "L": "KLJ",
+      "R": "PDR",
+      "A": false,
+      "Z": false
+    },
+    "MBH": {
+      "name": "MBH",
+      "L": "XCS",
+      "R": "XPD",
+      "A": false,
+      "Z": false
+    },
+    "DLK": {
+      "name": "DLK",
+      "L": "XMH",
+      "R": "XBD",
+      "A": false,
+      "Z": false
+    },
+    "HBG": {
+      "name": "HBG",
+      "L": "HJT",
+      "R": "RBX",
+      "A": false,
+      "Z": false
+    },
+    "THK": {
+      "name": "THK",
+      "L": "DQK",
+      "R": "JMB",
+      "A": false,
+      "Z": false
+    },
+    "DGF": {
+      "name": "DGF",
+      "L": "KKH",
+      "R": "QGQ",
+      "A": false,
+      "Z": false
+    },
+    "BPJ": {
+      "name": "BPJ",
+      "L": "GKX",
+      "R": "NXB",
+      "A": false,
+      "Z": false
+    },
+    "MTN": {
+      "name": "MTN",
+      "L": "MVP",
+      "R": "MVP",
+      "A": false,
+      "Z": false
+    },
+    "TMV": {
+      "name": "TMV",
+      "L": "RVC",
+      "R": "JJS",
+      "A": false,
+      "Z": false
+    },
+    "GMS": {
+      "name": "GMS",
+      "L": "PFV",
+      "R": "QDH",
+      "A": false,
+      "Z": false
+    },
+    "FDJ": {
+      "name": "FDJ",
+      "L": "BTH",
+      "R": "XPG",
+      "A": false,
+      "Z": false
+    },
+    "FFB": {
+      "name": "FFB",
+      "L": "MNM",
+      "R": "MNM",
+      "A": false,
+      "Z": false
+    },
+    "RTX": {
+      "name": "RTX",
+      "L": "LBK",
+      "R": "LXJ",
+      "A": false,
+      "Z": false
+    },
+    "BGG": {
+      "name": "BGG",
+      "L": "LNT",
+      "R": "STB",
+      "A": false,
+      "Z": false
+    },
+    "LRM": {
+      "name": "LRM",
+      "L": "HMT",
+      "R": "NJM",
+      "A": false,
+      "Z": false
+    },
+    "XVD": {
+      "name": "XVD",
+      "L": "XPD",
+      "R": "XCS",
+      "A": false,
+      "Z": false
+    },
+    "THT": {
+      "name": "THT",
+      "L": "NTC",
+      "R": "NTC",
+      "A": false,
+      "Z": false
+    },
+    "GXH": {
+      "name": "GXH",
+      "L": "NBB",
+      "R": "VXS",
+      "A": false,
+      "Z": false
+    },
+    "LTG": {
+      "name": "LTG",
+      "L": "XSM",
+      "R": "BGG",
+      "A": false,
+      "Z": false
+    },
+    "GKH": {
+      "name": "GKH",
+      "L": "GJJ",
+      "R": "QVC",
+      "A": false,
+      "Z": false
+    },
+    "TNT": {
+      "name": "TNT",
+      "L": "FHG",
+      "R": "PPR",
+      "A": false,
+      "Z": false
+    },
+    "CDP": {
+      "name": "CDP",
+      "L": "HGN",
+      "R": "HBG",
+      "A": false,
+      "Z": false
+    },
+    "DQN": {
+      "name": "DQN",
+      "L": "HXV",
+      "R": "JPN",
+      "A": false,
+      "Z": false
+    },
+    "FNS": {
+      "name": "FNS",
+      "L": "SVR",
+      "R": "RHQ",
+      "A": false,
+      "Z": false
+    },
+    "DSB": {
+      "name": "DSB",
+      "L": "DMG",
+      "R": "LRQ",
+      "A": false,
+      "Z": false
+    },
+    "DCD": {
+      "name": "DCD",
+      "L": "TLJ",
+      "R": "LLD",
+      "A": false,
+      "Z": false
+    },
+    "FTQ": {
+      "name": "FTQ",
+      "L": "JMK",
+      "R": "RDJ",
+      "A": false,
+      "Z": false
+    },
+    "VGX": {
+      "name": "VGX",
+      "L": "SFN",
+      "R": "BDH",
+      "A": false,
+      "Z": false
+    },
+    "VDX": {
+      "name": "VDX",
+      "L": "KJV",
+      "R": "DNF",
+      "A": false,
+      "Z": false
+    },
+    "PMX": {
+      "name": "PMX",
+      "L": "SFH",
+      "R": "BGP",
+      "A": false,
+      "Z": false
+    },
+    "VTF": {
+      "name": "VTF",
+      "L": "TBV",
+      "R": "MLH",
+      "A": false,
+      "Z": false
+    },
+    "LQM": {
+      "name": "LQM",
+      "L": "FMJ",
+      "R": "QVV",
+      "A": false,
+      "Z": false
+    },
+    "VNT": {
+      "name": "VNT",
+      "L": "VQR",
+      "R": "BVM",
+      "A": false,
+      "Z": false
+    },
+    "XML": {
+      "name": "XML",
+      "L": "GCN",
+      "R": "QFZ",
+      "A": false,
+      "Z": false
+    },
+    "VPF": {
+      "name": "VPF",
+      "L": "MVM",
+      "R": "JXP",
+      "A": false,
+      "Z": false
+    },
+    "TBK": {
+      "name": "TBK",
+      "L": "LLQ",
+      "R": "HQX",
+      "A": false,
+      "Z": false
+    },
+    "PXQ": {
+      "name": "PXQ",
+      "L": "TLK",
+      "R": "SBG",
+      "A": false,
+      "Z": false
+    },
+    "LKX": {
+      "name": "LKX",
+      "L": "CGV",
+      "R": "KRM",
+      "A": false,
+      "Z": false
+    },
+    "DBN": {
+      "name": "DBN",
+      "L": "PBH",
+      "R": "HPL",
+      "A": false,
+      "Z": false
+    },
+    "XXL": {
+      "name": "XXL",
+      "L": "CPG",
+      "R": "PND",
+      "A": false,
+      "Z": false
+    },
+    "BHG": {
+      "name": "BHG",
+      "L": "BBR",
+      "R": "BMS",
+      "A": false,
+      "Z": false
+    },
+    "VQQ": {
+      "name": "VQQ",
+      "L": "STX",
+      "R": "PJH",
+      "A": false,
+      "Z": false
+    },
+    "VHH": {
+      "name": "VHH",
+      "L": "RLG",
+      "R": "TDG",
+      "A": false,
+      "Z": false
+    },
+    "RJK": {
+      "name": "RJK",
+      "L": "KPH",
+      "R": "XHS",
+      "A": false,
+      "Z": false
+    },
+    "BFK": {
+      "name": "BFK",
+      "L": "MXV",
+      "R": "HTX",
+      "A": false,
+      "Z": false
+    },
+    "VJX": {
+      "name": "VJX",
+      "L": "XRK",
+      "R": "VDQ",
+      "A": false,
+      "Z": false
+    },
+    "GFJ": {
+      "name": "GFJ",
+      "L": "CPN",
+      "R": "FTQ",
+      "A": false,
+      "Z": false
+    },
+    "GRG": {
+      "name": "GRG",
+      "L": "MXD",
+      "R": "DLJ",
+      "A": false,
+      "Z": false
+    },
+    "CQC": {
+      "name": "CQC",
+      "L": "LJN",
+      "R": "LSR",
+      "A": false,
+      "Z": false
+    },
+    "RJB": {
+      "name": "RJB",
+      "L": "DHH",
+      "R": "LPT",
+      "A": false,
+      "Z": false
+    },
+    "FGP": {
+      "name": "FGP",
+      "L": "CJP",
+      "R": "PRL",
+      "A": false,
+      "Z": false
+    },
+    "BCM": {
+      "name": "BCM",
+      "L": "FFB",
+      "R": "STD",
+      "A": false,
+      "Z": false
+    },
+    "FBX": {
+      "name": "FBX",
+      "L": "GXX",
+      "R": "LRK",
+      "A": false,
+      "Z": false
+    },
+    "FLH": {
+      "name": "FLH",
+      "L": "VHJ",
+      "R": "PRT",
+      "A": false,
+      "Z": false
+    },
+    "GTD": {
+      "name": "GTD",
+      "L": "THT",
+      "R": "THT",
+      "A": false,
+      "Z": false
+    },
+    "GNS": {
+      "name": "GNS",
+      "L": "NHB",
+      "R": "TBK",
+      "A": false,
+      "Z": false
+    },
+    "QTM": {
+      "name": "QTM",
+      "L": "XDJ",
+      "R": "QTF",
+      "A": false,
+      "Z": false
+    },
+    "VGM": {
+      "name": "VGM",
+      "L": "KJK",
+      "R": "FCD",
+      "A": false,
+      "Z": false
+    },
+    "XBD": {
+      "name": "XBD",
+      "L": "JNG",
+      "R": "GCX",
+      "A": false,
+      "Z": false
+    },
+    "QVC": {
+      "name": "QVC",
+      "L": "BNV",
+      "R": "FLT",
+      "A": false,
+      "Z": false
+    },
+    "FCV": {
+      "name": "FCV",
+      "L": "LQL",
+      "R": "CSG",
+      "A": false,
+      "Z": false
+    },
+    "SCN": {
+      "name": "SCN",
+      "L": "NPL",
+      "R": "VXF",
+      "A": false,
+      "Z": false
+    },
+    "KKL": {
+      "name": "KKL",
+      "L": "HVK",
+      "R": "NMS",
+      "A": false,
+      "Z": false
+    },
+    "MDG": {
+      "name": "MDG",
+      "L": "QJD",
+      "R": "SMS",
+      "A": false,
+      "Z": false
+    },
+    "QSB": {
+      "name": "QSB",
+      "L": "BFP",
+      "R": "TFH",
+      "A": false,
+      "Z": false
+    },
+    "LKJ": {
+      "name": "LKJ",
+      "L": "BRS",
+      "R": "BSL",
+      "A": false,
+      "Z": false
+    },
+    "XCS": {
+      "name": "XCS",
+      "L": "HSB",
+      "R": "LRC",
+      "A": false,
+      "Z": false
+    },
+    "HLB": {
+      "name": "HLB",
+      "L": "MDJ",
+      "R": "RTV",
+      "A": false,
+      "Z": false
+    },
+    "TLJ": {
+      "name": "TLJ",
+      "L": "NGQ",
+      "R": "CGC",
+      "A": false,
+      "Z": false
+    },
+    "MNM": {
+      "name": "MNM",
+      "L": "CLJ",
+      "R": "CLJ",
+      "A": false,
+      "Z": false
+    },
+    "STB": {
+      "name": "STB",
+      "L": "HQM",
+      "R": "FGJ",
+      "A": false,
+      "Z": false
+    },
+    "HJT": {
+      "name": "HJT",
+      "L": "TMF",
+      "R": "KTP",
+      "A": false,
+      "Z": false
+    },
+    "TND": {
+      "name": "TND",
+      "L": "LRF",
+      "R": "JSL",
+      "A": false,
+      "Z": false
+    },
+    "FVN": {
+      "name": "FVN",
+      "L": "QDN",
+      "R": "DXF",
+      "A": false,
+      "Z": false
+    },
+    "SNT": {
+      "name": "SNT",
+      "L": "TJD",
+      "R": "DDR",
+      "A": false,
+      "Z": false
+    },
+    "JKM": {
+      "name": "JKM",
+      "L": "LKN",
+      "R": "FVM",
+      "A": false,
+      "Z": false
+    },
+    "LTC": {
+      "name": "LTC",
+      "L": "RBP",
+      "R": "PQH",
+      "A": false,
+      "Z": false
+    },
+    "STP": {
+      "name": "STP",
+      "L": "CKF",
+      "R": "NLR",
+      "A": false,
+      "Z": false
+    },
+    "DMG": {
+      "name": "DMG",
+      "L": "LSQ",
+      "R": "PMP",
+      "A": false,
+      "Z": false
+    },
+    "CDX": {
+      "name": "CDX",
+      "L": "RFC",
+      "R": "VPF",
+      "A": false,
+      "Z": false
+    },
+    "CNQ": {
+      "name": "CNQ",
+      "L": "PXG",
+      "R": "BSF",
+      "A": false,
+      "Z": false
+    },
+    "PMP": {
+      "name": "PMP",
+      "L": "KCC",
+      "R": "GSP",
+      "A": false,
+      "Z": false
+    },
+    "VKT": {
+      "name": "VKT",
+      "L": "CKX",
+      "R": "KPS",
+      "A": false,
+      "Z": false
+    },
+    "CKJ": {
+      "name": "CKJ",
+      "L": "FBX",
+      "R": "KNQ",
+      "A": false,
+      "Z": false
+    },
+    "VGC": {
+      "name": "VGC",
+      "L": "JPB",
+      "R": "NVL",
+      "A": false,
+      "Z": false
+    },
+    "LCB": {
+      "name": "LCB",
+      "L": "QTC",
+      "R": "FCM",
+      "A": false,
+      "Z": false
+    },
+    "TCF": {
+      "name": "TCF",
+      "L": "BDH",
+      "R": "SFN",
+      "A": false,
+      "Z": false
+    },
+    "DDC": {
+      "name": "DDC",
+      "L": "XSX",
+      "R": "DMB",
+      "A": false,
+      "Z": false
+    },
+    "SFN": {
+      "name": "SFN",
+      "L": "XFV",
+      "R": "GSF",
+      "A": false,
+      "Z": false
+    },
+    "HXF": {
+      "name": "HXF",
+      "L": "GDQ",
+      "R": "VNC",
+      "A": false,
+      "Z": false
+    },
+    "BPQ": {
+      "name": "BPQ",
+      "L": "QCS",
+      "R": "PKR",
+      "A": false,
+      "Z": false
+    },
+    "FFD": {
+      "name": "FFD",
+      "L": "TNT",
+      "R": "XTF",
+      "A": false,
+      "Z": false
+    },
+    "TBV": {
+      "name": "TBV",
+      "L": "SFR",
+      "R": "RJK",
+      "A": false,
+      "Z": false
+    },
+    "DBB": {
+      "name": "DBB",
+      "L": "FGM",
+      "R": "DJR",
+      "A": false,
+      "Z": false
+    },
+    "FHG": {
+      "name": "FHG",
+      "L": "VSN",
+      "R": "LQK",
+      "A": false,
+      "Z": false
+    },
+    "GGM": {
+      "name": "GGM",
+      "L": "DSM",
+      "R": "NKL",
+      "A": false,
+      "Z": false
+    },
+    "RJV": {
+      "name": "RJV",
+      "L": "NMS",
+      "R": "HVK",
+      "A": false,
+      "Z": false
+    },
+    "NGQ": {
+      "name": "NGQ",
+      "L": "RJV",
+      "R": "KKL",
+      "A": false,
+      "Z": false
+    },
+    "CFS": {
+      "name": "CFS",
+      "L": "HQV",
+      "R": "HPS",
+      "A": false,
+      "Z": false
+    },
+    "PFG": {
+      "name": "PFG",
+      "L": "BTX",
+      "R": "DVB",
+      "A": false,
+      "Z": false
+    },
+    "VCX": {
+      "name": "VCX",
+      "L": "QKF",
+      "R": "CPK",
+      "A": false,
+      "Z": false
+    },
+    "XCQ": {
+      "name": "XCQ",
+      "L": "MXV",
+      "R": "HTX",
+      "A": false,
+      "Z": false
+    },
+    "DHH": {
+      "name": "DHH",
+      "L": "PRD",
+      "R": "CGB",
+      "A": false,
+      "Z": false
+    },
+    "HBH": {
+      "name": "HBH",
+      "L": "DJR",
+      "R": "FGM",
+      "A": false,
+      "Z": false
+    },
+    "RMH": {
+      "name": "RMH",
+      "L": "GMV",
+      "R": "SNF",
+      "A": false,
+      "Z": false
+    },
+    "HXV": {
+      "name": "HXV",
+      "L": "QTB",
+      "R": "FRP",
+      "A": false,
+      "Z": false
+    },
+    "QFZ": {
+      "name": "QFZ",
+      "L": "CVS",
+      "R": "NCN",
+      "A": false,
+      "Z": true
+    },
+    "CVK": {
+      "name": "CVK",
+      "L": "BDK",
+      "R": "GMJ",
+      "A": false,
+      "Z": false
+    },
+    "SHQ": {
+      "name": "SHQ",
+      "L": "QQM",
+      "R": "BFT",
+      "A": false,
+      "Z": false
+    },
+    "PGQ": {
+      "name": "PGQ",
+      "L": "XPS",
+      "R": "JNV",
+      "A": false,
+      "Z": false
+    },
+    "LQR": {
+      "name": "LQR",
+      "L": "NTG",
+      "R": "VCG",
+      "A": false,
+      "Z": false
+    },
+    "QDS": {
+      "name": "QDS",
+      "L": "BVB",
+      "R": "HDJ",
+      "A": false,
+      "Z": false
+    },
+    "CJP": {
+      "name": "CJP",
+      "L": "THH",
+      "R": "TTH",
+      "A": false,
+      "Z": false
+    },
+    "FNB": {
+      "name": "FNB",
+      "L": "GGH",
+      "R": "MTR",
+      "A": false,
+      "Z": false
+    },
+    "PSN": {
+      "name": "PSN",
+      "L": "RXG",
+      "R": "JSG",
+      "A": false,
+      "Z": false
+    },
+    "LHX": {
+      "name": "LHX",
+      "L": "QDN",
+      "R": "DXF",
+      "A": false,
+      "Z": false
+    },
+    "GFG": {
+      "name": "GFG",
+      "L": "SCG",
+      "R": "KQJ",
+      "A": false,
+      "Z": false
+    },
+    "PRR": {
+      "name": "PRR",
+      "L": "NPK",
+      "R": "BDP",
+      "A": false,
+      "Z": false
+    },
+    "QSH": {
+      "name": "QSH",
+      "L": "LKX",
+      "R": "BBF",
+      "A": false,
+      "Z": false
+    },
+    "KVV": {
+      "name": "KVV",
+      "L": "LBV",
+      "R": "CRP",
+      "A": false,
+      "Z": false
+    },
+    "DFF": {
+      "name": "DFF",
+      "L": "NXB",
+      "R": "GKX",
+      "A": false,
+      "Z": false
+    },
+    "JFF": {
+      "name": "JFF",
+      "L": "CKJ",
+      "R": "LVQ",
+      "A": false,
+      "Z": false
+    },
+    "FCD": {
+      "name": "FCD",
+      "L": "MDG",
+      "R": "XCV",
+      "A": false,
+      "Z": false
+    },
+    "SFC": {
+      "name": "SFC",
+      "L": "FNS",
+      "R": "HLP",
+      "A": false,
+      "Z": false
+    },
+    "KPS": {
+      "name": "KPS",
+      "L": "BNS",
+      "R": "CFS",
+      "A": false,
+      "Z": false
+    },
+    "PLN": {
+      "name": "PLN",
+      "L": "PNN",
+      "R": "DHB",
+      "A": false,
+      "Z": false
+    },
+    "SHG": {
+      "name": "SHG",
+      "L": "CQM",
+      "R": "TNP",
+      "A": false,
+      "Z": false
+    },
+    "GJR": {
+      "name": "GJR",
+      "L": "QDP",
+      "R": "GCJ",
+      "A": false,
+      "Z": false
+    },
+    "NDJ": {
+      "name": "NDJ",
+      "L": "GFX",
+      "R": "GXH",
+      "A": false,
+      "Z": false
+    },
+    "XQB": {
+      "name": "XQB",
+      "L": "PHC",
+      "R": "JSD",
+      "A": false,
+      "Z": false
+    },
+    "FKJ": {
+      "name": "FKJ",
+      "L": "CSG",
+      "R": "LQL",
+      "A": false,
+      "Z": false
+    },
+    "FRP": {
+      "name": "FRP",
+      "L": "KNS",
+      "R": "JTS",
+      "A": false,
+      "Z": false
+    },
+    "MHX": {
+      "name": "MHX",
+      "L": "BKB",
+      "R": "LCB",
+      "A": false,
+      "Z": false
+    },
+    "HGK": {
+      "name": "HGK",
+      "L": "LHS",
+      "R": "SBV",
+      "A": false,
+      "Z": false
+    },
+    "JXJ": {
+      "name": "JXJ",
+      "L": "JMG",
+      "R": "PCS",
+      "A": false,
+      "Z": false
+    },
+    "NJC": {
+      "name": "NJC",
+      "L": "RQH",
+      "R": "BGH",
+      "A": false,
+      "Z": false
+    },
+    "LLQ": {
+      "name": "LLQ",
+      "L": "TQF",
+      "R": "NJB",
+      "A": false,
+      "Z": false
+    },
+    "QFR": {
+      "name": "QFR",
+      "L": "BCP",
+      "R": "CKB",
+      "A": false,
+      "Z": false
+    },
+    "BXK": {
+      "name": "BXK",
+      "L": "DQD",
+      "R": "HRT",
+      "A": false,
+      "Z": false
+    },
+    "XFR": {
+      "name": "XFR",
+      "L": "KKD",
+      "R": "SQM",
+      "A": false,
+      "Z": false
+    },
+    "XFV": {
+      "name": "XFV",
+      "L": "HMJ",
+      "R": "RMH",
+      "A": false,
+      "Z": false
+    },
+    "HMJ": {
+      "name": "HMJ",
+      "L": "GMV",
+      "R": "SNF",
+      "A": false,
+      "Z": false
+    },
+    "BNV": {
+      "name": "BNV",
+      "L": "NHG",
+      "R": "FRF",
+      "A": false,
+      "Z": false
+    },
+    "GXV": {
+      "name": "GXV",
+      "L": "LBK",
+      "R": "LXJ",
+      "A": false,
+      "Z": false
+    },
+    "XNX": {
+      "name": "XNX",
+      "L": "NKH",
+      "R": "FQC",
+      "A": false,
+      "Z": false
+    },
+    "BJR": {
+      "name": "BJR",
+      "L": "VKX",
+      "R": "JCV",
+      "A": false,
+      "Z": false
+    },
+    "CRN": {
+      "name": "CRN",
+      "L": "BCX",
+      "R": "DTB",
+      "A": false,
+      "Z": false
+    }
+  }
+}

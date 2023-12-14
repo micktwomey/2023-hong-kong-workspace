@@ -18,7 +18,7 @@ typer = "^0.9.0"
 structlog = "^23.2.0"
 parsy = "^2.1"
 tqdm = "^4.66.1"
-# numba = "^0.58.1"
+numba = "^0.58.1"
 
 
 [tool.poetry.group.dev.dependencies]
