@@ -13,6 +13,7 @@
     pkgs.rnix-lsp
     pkgs.zls
     pkgs.time
+    pkgs.graphviz
   ];
 
   enterShell = ''

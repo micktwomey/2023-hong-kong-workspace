@@ -10,6 +10,8 @@ import typer
 import parsy
 import tqdm
 
+from numba import njit
+
 app = typer.Typer()
 LOG = structlog.get_logger()
 
@@ -22,9 +24,23 @@ class Node(typing.TypedDict):
     Z: bool
 
 
+class IntNode(typing.TypedDict):
+    name: int
+    L: int
+    R: int
+    A: bool
+    Z: bool
+
+
 class RawMap(typing.TypedDict):
     steps: list[str]
     nodes: list[Node]
+
+
+class IntMap(typing.TypedDict):
+    steps: list[int]
+    nodes: list[IntNode]
+    name_mapping: dict[str, int]
 
 
 class Map(typing.TypedDict):
@@ -85,24 +101,136 @@ assert parse(EXAMPLE) == {
 def parse_to_json(input: Path, use_ints: bool = False):
     parsed = parse(input.open("r").read())
     if use_ints:
-        parsed["steps"] = [0 if s == "L" else 1 for s in parsed["steps"]]
+        int_map: IntMap = {"name_mapping": {}, "nodes": [], "steps": []}
+        int_map["steps"] = [0 if s == "L" else 1 for s in parsed["steps"]]
         names: dict[str, int] = {}
         for i, name in enumerate(parsed["nodes"].keys()):
             names[name] = i
         for node in parsed["nodes"].values():
-            name = node["name"]
-            node["name"] = names[name]
-            # node[0] = node["L"]
-            # node[1] = node["R"]
-            # del node["L"]
-            # del node["R"]
-            for branch in ["L", "R"]:
-                node[branch] = names[node[branch]]
-        parsed["nodes"] = [
-            v for v in sorted(parsed["nodes"].values(), key=lambda n: n["name"])
-        ]
-        parsed["name_mapping"] = names
+            int_node: IntNode = {
+                "A": node["A"],
+                "Z": node["Z"],
+                "L": names[node["L"]],
+                "R": names[node["R"]],
+                "name": names[node["name"]],
+            }
+            int_map["nodes"].append(int_node)
+        int_map["nodes"] = list(sorted(int_map["nodes"], key=lambda n: n["name"]))
+        int_map["name_mapping"] = names
     json.dump(parsed, sys.stdout)
+
+
+@app.command()
+def graph(input: Path):
+    graph = parse(input.open("r").read())
+    sys.stdout.write("digraph {\n")
+    for name, node in graph["nodes"].items():
+        for branch in ["L", "R"]:
+            sys.stdout.write(f"N_{name} -> N_{node[branch]};\n")
+    sys.stdout.write("}\n")
+
+
+@app.command()
+def graph_steps(input: Path, output: Path):
+    fp = output.open("w")
+    graph = parse(input.open("r").read())
+    fp.write("digraph {\n")
+    a_nodes = [n for n in graph["nodes"].values() if n["name"].endswith("A")]
+    # current_nodes = {i: n for i, n in enumerate(a_nodes)}
+    current_nodes = {n["name"]: n for n in a_nodes}
+    for step_count, step in enumerate(itertools.cycle(graph["steps"])):
+        if not current_nodes:
+            break
+        for i, current_node in list(current_nodes.items()):
+            next_node = graph["nodes"][current_node[step]]
+            fp.write(f"N_{i}_{current_node['name']} -> N_{i}_{next_node['name']};\n")
+            if next_node["name"][-1] == "Z":
+                LOG.info(
+                    "finished node", i=i, node=next_node, step_count=step_count + 1
+                )
+                del current_nodes[i]
+            else:
+                current_nodes[i] = next_node
+
+    fp.write("}\n")
+
+
+@njit
+def njit_divisible():
+    numbers = [12599, 17873, 19631, 20803, 21389, 23147]
+    largest = max(numbers)
+    numbers.remove(largest)
+    i = 1
+    while True:
+        steps = largest * i
+        divisible = True
+        if i % 1_000_000 == 0:
+            print(("step", i, steps))
+        for number in numbers:
+            if steps % number != 0:
+                divisible = False
+        if divisible:
+            print(("divisible after", steps))
+            return
+        i += 1
+
+
+@app.command()
+def find_divisible_number():
+    """Find multiple of largest number which is divisible by others"""
+    njit_divisible()
+    return
+    numbers = [12599, 17873, 19631, 20803, 21389, 23147]
+    largest = max(numbers)
+    numbers.remove(largest)
+    i = 1
+    while True:
+        steps = largest * i
+        divisible = True
+        if i % 100_000 == 0:
+            LOG.info("step", i=i, steps=steps)
+        for number in numbers:
+            if steps % number != 0:
+                divisible = False
+        if divisible:
+            LOG.info("divisible after", steps=steps)
+        i += 1
+
+
+# TODO: look at how long each graph takes to loop, how long until (step[i], current_node) repeats
+@app.command()
+def does_graph_loop(input: Path):
+    graph = parse(input.open("r").read())
+    a_nodes = [n for n in graph["nodes"].values() if n["name"].endswith("A")]
+    # current_nodes = {i: n for i, n in enumerate(a_nodes)}
+    current_nodes = {n["name"]: n for n in a_nodes}
+    seen_steps: set[tuple[int, int, str]] = set()
+    steps = list(enumerate(graph["steps"]))
+    # LOG.info("steps", steps=steps)
+    for step_count, (step_index, step) in enumerate(itertools.cycle(steps)):
+        if step_count % 100_000 == 0 and step_count > 1:
+            LOG.info(
+                "step",
+                step_count=step_count,
+                step=step,
+                current_nodes=current_nodes,
+                seen_steps=len(seen_steps),
+            )
+        if not current_nodes:
+            break
+        for i, current_node in list(current_nodes.items()):
+            step_info = (i, step_index, current_node["name"])
+            if step_info in seen_steps:
+                LOG.info(
+                    "node steps repeated",
+                    i=i,
+                    node=current_node,
+                    step_count=step_count + 1,
+                )
+                del current_nodes[i]
+            else:
+                current_nodes[i] = graph["nodes"][current_node[step]]
+                seen_steps.add(step_info)
 
 
 @app.command()
