@@ -1,64 +1,74 @@
 {
   "steps": [
-    "L",
-    "R"
+    0,
+    1
   ],
-  "nodes": {
-    "11A": {
-      "name": "11A",
-      "L": "11B",
-      "R": "XXX",
+  "nodes": [
+    {
+      "name": 0,
+      "L": 1,
+      "R": 7,
       "A": true,
       "Z": false
     },
-    "11B": {
-      "name": "11B",
-      "L": "XXX",
-      "R": "11Z",
+    {
+      "name": 1,
+      "L": 7,
+      "R": 2,
       "A": false,
       "Z": false
     },
-    "11Z": {
-      "name": "11Z",
-      "L": "11B",
-      "R": "XXX",
+    {
+      "name": 2,
+      "L": 1,
+      "R": 7,
       "A": false,
       "Z": true
     },
-    "22A": {
-      "name": "22A",
-      "L": "22B",
-      "R": "XXX",
+    {
+      "name": 3,
+      "L": 4,
+      "R": 7,
       "A": true,
       "Z": false
     },
-    "22B": {
-      "name": "22B",
-      "L": "22C",
-      "R": "22C",
+    {
+      "name": 4,
+      "L": 5,
+      "R": 5,
       "A": false,
       "Z": false
     },
-    "22C": {
-      "name": "22C",
-      "L": "22Z",
-      "R": "22Z",
+    {
+      "name": 5,
+      "L": 6,
+      "R": 6,
       "A": false,
       "Z": false
     },
-    "22Z": {
-      "name": "22Z",
-      "L": "22B",
-      "R": "22B",
+    {
+      "name": 6,
+      "L": 4,
+      "R": 4,
       "A": false,
       "Z": true
     },
-    "XXX": {
-      "name": "XXX",
-      "L": "XXX",
-      "R": "XXX",
+    {
+      "name": 7,
+      "L": 7,
+      "R": 7,
       "A": false,
       "Z": false
     }
+  ],
+  "name_mapping": {
+    "11A": 0,
+    "11B": 1,
+    "11Z": 2,
+    "22A": 3,
+    "22B": 4,
+    "22C": 5,
+    "22Z": 6,
+    "XXX": 7
   }
 }

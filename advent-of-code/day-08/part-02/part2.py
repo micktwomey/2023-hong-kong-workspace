@@ -82,8 +82,27 @@ assert parse(EXAMPLE) == {
 
 
 @app.command()
-def parse_to_json(input: Path):
-    json.dump(parse(input.open("r").read()), sys.stdout)
+def parse_to_json(input: Path, use_ints: bool = False):
+    parsed = parse(input.open("r").read())
+    if use_ints:
+        parsed["steps"] = [0 if s == "L" else 1 for s in parsed["steps"]]
+        names: dict[str, int] = {}
+        for i, name in enumerate(parsed["nodes"].keys()):
+            names[name] = i
+        for node in parsed["nodes"].values():
+            name = node["name"]
+            node["name"] = names[name]
+            # node[0] = node["L"]
+            # node[1] = node["R"]
+            # del node["L"]
+            # del node["R"]
+            for branch in ["L", "R"]:
+                node[branch] = names[node[branch]]
+        parsed["nodes"] = [
+            v for v in sorted(parsed["nodes"].values(), key=lambda n: n["name"])
+        ]
+        parsed["name_mapping"] = names
+    json.dump(parsed, sys.stdout)
 
 
 @app.command()

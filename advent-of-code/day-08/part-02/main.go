@@ -8,19 +8,20 @@ import (
 	"os"
 	"runtime/pprof"
 	"time"
+	// TODO: try out "github.com/dolthub/swiss"
 )
 
 type Node struct {
-	Name string `json:"name"`
-	L    string `json:"L"`
-	R    string `json:"R"`
-	A    bool   `json:"A"`
-	Z    bool   `json:"Z"`
+	Name int  `json:"name"`
+	L    int  `json:"L"`
+	R    int  `json:"R"`
+	A    bool `json:"A"`
+	Z    bool `json:"Z"`
 }
 
 type Input struct {
-	Steps []string         `json:"steps"`
-	Nodes map[string]*Node `json:"nodes"`
+	Steps []int   `json:"steps"`
+	Nodes []*Node `json:"nodes"`
 }
 
 // type GraphNode struct {
@@ -68,17 +69,17 @@ var input_filename = flag.String("input", "", "read input json from file")
 // }
 
 // cycle forever over a list of strings
-func cycle(iterable []string, ch chan string) {
-	max := len(iterable)
-	i := 0
-	for {
-		if i == max {
-			i = 0
-		}
-		ch <- iterable[i]
-		i++
-	}
-}
+// func cycle(iterable []string, ch chan string) {
+// 	max := len(iterable)
+// 	i := 0
+// 	for {
+// 		if i == max {
+// 			i = 0
+// 		}
+// 		ch <- iterable[i]
+// 		i++
+// 	}
+// }
 
 func solution(input Input) int {
 	steps := -1
@@ -89,32 +90,39 @@ func solution(input Input) int {
 	// go cycle(input.Steps, steps_channel)
 	max_steps := len(input.Steps)
 	current_step_i := 0
-	var step string
+	var step int
 
-	var current_node_names []string
-	for _, node := range input.Nodes {
+	var current_node_names []int
+	for i, node := range input.Nodes {
+		fmt.Printf("node: %+v\n", node)
 		if node.A {
 			current_node_names = append(current_node_names, node.Name)
 		}
+		if node.Name != i {
+			log.Fatal("Mismatch in node names and list positions")
+		}
 	}
 	desired_z_count := len(current_node_names)
-	fmt.Printf("Desired Z node count: %d\n", desired_z_count)
+	fmt.Printf("Desired Z node count: %d current_node_names: %+v\n", desired_z_count, current_node_names)
 
 	var z_count = 0
 	var current_node *Node
 	var next_node *Node
-	var current_node_name string
-	next_node_names := make([]string, desired_z_count)
+	var current_node_name int
+	next_node_names := make([]int, desired_z_count)
 	start := time.Now()
 	for {
-		if steps%1000000 == 0 {
+		if steps%100_000_000 == 0 {
 			now := time.Now()
 			elapsed := now.Sub(start)
-			fmt.Printf("steps: %d z_count: %d current-nodes %+v elapsed: %s\n", steps, z_count, current_node_names, elapsed.String())
+			fmt.Printf("steps: %d z_count: %d current_node_names: %+v elapsed: %s current_node: %+v\n", steps, z_count, current_node_names, elapsed.String(), current_node)
 			start = now
-			if steps > 1 && steps%(10000000) == 0 {
-				return steps
-			}
+			// if steps > 1 && steps%(10000000) == 0 {
+			// 	return steps
+			// }
+		}
+		if z_count > 2 {
+			fmt.Printf("%d ", z_count)
 		}
 		if desired_z_count == z_count {
 			return steps
@@ -124,9 +132,12 @@ func solution(input Input) int {
 		z_count = 0
 		// clear(next_node_names)
 		if current_step_i == max_steps {
+			// fmt.Printf("Resetting step counter, was: %d\n", current_step_i)
 			current_step_i = 0
 		}
 		step = input.Steps[current_step_i]
+		// fmt.Printf("(step:%d,current_step_i:%d) ", step, current_step_i)
+		current_step_i++
 
 		for i := 0; i < desired_z_count; i++ {
 			current_node_name = current_node_names[i]
@@ -135,9 +146,16 @@ func solution(input Input) int {
 				z_count++
 			}
 
-			if step == "L" {
+			// fmt.Printf("step: %d", step)
+			if step == 0 {
+				// if i == 0 {
+				// 	fmt.Print("L")
+				// }
 				next_node = input.Nodes[current_node.L]
 			} else {
+				// if i == 0 {
+				// 	fmt.Print("R")
+				// }
 				next_node = input.Nodes[current_node.R]
 			}
 			next_node_names[i] = next_node.Name
@@ -145,7 +163,7 @@ func solution(input Input) int {
 		current_node_names = next_node_names
 	}
 
-	return steps
+	// return steps
 }
 
 func main() {
